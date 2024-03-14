@@ -1,7 +1,4 @@
-import { Inter } from "next/font/google";
-("useClient");
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "STUDIO",
@@ -11,7 +8,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body className='' style={{backgroundColor: "#eb4f34"}}>{children}</body>
     </html>
   );
 }
+
+
+// style={{backgroundColor: "#eb4f34"}}
