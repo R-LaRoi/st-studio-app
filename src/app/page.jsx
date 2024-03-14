@@ -1,5 +1,5 @@
 'use client';
-import styles from "./Styles/home.module.css";
+import "./Styles/home.css";
 import { useState } from 'react';  
 import { motion } from 'framer-motion';
 import useMousePosition from './Components/mousePosition';
@@ -14,10 +14,10 @@ export default function Home() {
 
 
   return (
-    <main main className={styles.main}>
+    <main main className="main">
    
    <motion.div 
-        className={styles.mask}
+        className="mask"
         animate={{
           WebkitMaskPosition: `${x - (size/2)}px ${y - (size/2)}px`,
           WebkitMaskSize: `${size}px`,
@@ -26,11 +26,11 @@ export default function Home() {
       ></motion.div>
 
 <Link href ="/Menu/Projects/">
-    <div className={styles.container} >
-      <div className={styles.body}>
-        <div className={styles.textContainer}>
-          <p className={styles.primary}>projects</p>
-          <p className={styles.secondary}>projects</p>
+    <div className="container" >
+      <div className="body">
+    <div className="textContainer">
+          <p className="primary">projects</p>
+          <p className="secondary">projects</p>
         </div>
       </div>
     </div>
@@ -38,22 +38,23 @@ export default function Home() {
 </Link>
  
  <Link href ="/Menu/Connect">
-    <div className={styles.container}>
-      <div className={styles.body}>
-        <div className={styles.textContainer}>
-          <p className={styles.primary}>connect</p>
-          <p className={styles.secondary}>meet_rachel</p>
+     <div className="container" >
+      <div className="body">
+    <div className="textContainer">
+          <p className="primary">connect</p>
+          <p className="secondary">meet_rachel</p>
         </div>
       </div>
     </div>
 </Link>
 
 <Link href ="/Menu/Studio">
-    <div className={styles.container}>
-      <div className={styles.body}>
-        <div className={styles.textContainer}>
-          <p className={styles.primary}>studio<span style={{color: "#FFE627"}}>_</span> </p>
-          <p className={styles.secondary}>art&design</p>
+     <div className="container" >
+      <div className="body">
+    <div className="textContainer">
+            <p className="primary">studio
+            <span style={{color: "#FFE627"}}>_</span> </p>
+          <p className="secondary">art&design</p>
         </div>
       </div>
     </div>

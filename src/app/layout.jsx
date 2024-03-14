@@ -1,5 +1,5 @@
-
-
+import 'bootstrap/dist/css/bootstrap.css';
+import './globals.css'
 export const metadata = {
   title: "STUDIO",
   description: "",
@@ -8,7 +8,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className='' style={{backgroundColor: "#eb4f34"}}>{children}</body>
+      <body className="" style={{backgroundColor: "#eb4f34"}}>{children}</body>
+  
+
     </html>
   );
 }
