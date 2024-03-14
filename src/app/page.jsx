@@ -2,7 +2,8 @@
 import styles from "./Styles/home.module.css";
 import { useState } from 'react';  
 import { motion } from 'framer-motion';
-import useMousePosition from './mousePosition';
+import useMousePosition from './Components/mousePosition';
+import Link from "next/link";
 
 
 export default function Home() {
@@ -10,7 +11,6 @@ export default function Home() {
   const [isHovered, setIsHovered] = useState(false);
   const { x, y } = useMousePosition();
   const size = isHovered ? 500 : 390;
-
 
 
   return (
@@ -25,7 +25,7 @@ export default function Home() {
         transition={{ type: "tween", ease: "backOut", duration:0.3}}
       ></motion.div>
 
-
+<Link href ="/Menu/Projects/">
     <div className={styles.container} >
       <div className={styles.body}>
         <div className={styles.textContainer}>
@@ -35,8 +35,9 @@ export default function Home() {
       </div>
     </div>
   
-
+</Link>
  
+ <Link href ="/Menu/Connect">
     <div className={styles.container}>
       <div className={styles.body}>
         <div className={styles.textContainer}>
@@ -45,8 +46,9 @@ export default function Home() {
         </div>
       </div>
     </div>
+</Link>
 
-
+<Link href ="/Menu/Studio">
     <div className={styles.container}>
       <div className={styles.body}>
         <div className={styles.textContainer}>
@@ -55,7 +57,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-   
+   </Link>
 </main>
   );
 }
