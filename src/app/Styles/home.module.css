@@ -3,15 +3,25 @@
   src: local("Mabry"), url("./Mabry.ttf") format("opentype");
 }
 
+@font-face {
+  font-family: "Cal-Sans";
+  src: local("Cal-Sans"), url("./CalSans-SemiBold.ttf") format("opentype");
+}
+
+.container {
+  padding: 4rem;
+}
+
 .body {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   position: absolute;
   transform-style: preserve-3d;
   margin-top: 25px;
   margin-left: 25px;
+
   perspective: 300px;
-  font-family: "Mabry";
+  font-family: "Cal-Sans";
 }
 .textContainer {
   position: relative;
