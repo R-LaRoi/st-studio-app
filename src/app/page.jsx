@@ -1,5 +1,5 @@
 'use client';
-import "./Styles/home.css";
+import "./Styles/pages.css";
 import { useState } from 'react';  
 import { motion } from 'framer-motion';
 import useMousePosition from './Components/mousePosition';
@@ -14,7 +14,7 @@ export default function Home() {
 
 
   return (
-    <main main className="main">
+    <main main className="main"  style={{backgroundColor: "#eb4f34"}}>
    
    <motion.div 
         className="mask"

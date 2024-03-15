@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css';
+
 import './globals.css'
 export const metadata = {
   title: "STUDIO",
@@ -8,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className="" style={{backgroundColor: "#eb4f34"}}>{children}</body>
+      <body className="" >{children}</body>
   
 
     </html>
