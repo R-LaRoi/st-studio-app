@@ -1,7 +1,7 @@
-/* @font-face {
+@font-face {
   font-family: "Mabry";
-  src: local("Mabry"), url("./Mabry.ttf") format("opentype");
-} */
+  src: local("Mabry"), url("./Mabry\ Pro\ Black.ttf") format("opentype");
+}
 
 @font-face {
   font-family: "Cal-Sans";
@@ -9,9 +9,17 @@
 }
 
 .container {
-  padding: 4rem;
+  margin: 2%;
+  padding: 2.5rem;
 }
 
+.header-text {
+  color: #ffffffe1;
+  font-family: "Cal-Sans";
+  font-size: 6rem;
+  line-height: 0.9;
+  position: relative;
+}
 .body {
   display: flex;
   flex-direction: column;
@@ -19,9 +27,8 @@
   transform-style: preserve-3d;
   margin-top: 25px;
   margin-left: 25px;
-
   perspective: 300px;
-  font-family: "Cal-Sans";
+  font-family: "Cal-sans";
 }
 .textContainer {
   position: relative;
@@ -31,12 +38,13 @@
 }
 
 .textContainer p {
-  font-size: 8vw;
+  font-size: 5vw;
   font-weight: 700;
   margin: 0px;
   transition: all 0.4s;
-  color: rgb(245, 245, 245);
-  line-height: 8vw;
+  color: #eaeaea;
+  /* color: #2e2e2ef3; */
+  line-height: 10px;
   letter-spacing: 5px;
 }
 
@@ -45,9 +53,9 @@
   transform-origin: bottom center;
   position: absolute;
   top: 0;
-  color: #1052d8;
+  color: #ffe627;
   opacity: 0;
-  letter-spacing: 15px;
+  letter-spacing: 5px;
 }
 
 .textContainer:hover {
@@ -65,6 +73,7 @@
 
 .main {
   height: 100vh;
+  overflow: hidden;
   .mask {
     width: 100%;
     height: 100%;
@@ -74,16 +83,21 @@
     cursor: default;
 
     .span {
-      color: #ffe627;
+      color: #eab136;
+      /* color: #1052d8; */
     }
   }
   .mask {
     mask-image: url("./mask.svg");
     mask-repeat: no-repeat;
     /* mask-size: 140px; */
-    background: #ffe627;
+    /* background: #1d1d1d; */
+    background: #0a3283;
+    /* color: #ffe627; */
     /* background: rgba(255, 230, 39, 0.8); */
+    /* background: #1052d8; */
     position: absolute;
+
     /* color: black; */
   }
 }

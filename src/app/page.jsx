@@ -12,10 +12,14 @@ export default function Home() {
   const { x, y } = useMousePosition();
   const size = isHovered ? 500 : 390;
 
-
+// backgroundColor: "#eb4f34",
   return (
-    <main main className="main"  style={{backgroundColor: "#eb4f34"}}>
-   
+    <main main className="main"  style={{backgroundImage: "radial-gradient( circle farthest-corner at 10% 20%,  rgba(247,87,0,1) 0%, rgba(249,0,0,1) 90.1% )"
+    
+    }}>
+
+     
+
    <motion.div 
         className="mask"
         animate={{
@@ -25,7 +29,10 @@ export default function Home() {
         transition={{ type: "tween", ease: "backOut", duration:0.3}}
       ></motion.div>
 
-<Link href ="/Menu/Projects/">
+
+    <h1 className="header-text">In pursuit of joy {''} <br/>by design_</h1> 
+<Link href ="/Menu/Projects/"  className="move">
+
     <div className="container" >
       <div className="body">
     <div className="textContainer">
