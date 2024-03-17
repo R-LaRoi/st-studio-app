@@ -13,16 +13,20 @@
   padding: 2.5rem;
 }
 
+.link-menu {
+  margin-top: -5%;
+}
 .header-text {
-  color: #ffffffe1;
+  color: #ffffffeb;
   font-family: "Cal-Sans";
-  font-size: 6rem;
+  font-size: 6.5rem;
   line-height: 0.9;
   position: relative;
+  margin-top: 15%;
+  margin-left: 10%;
 }
+
 .body {
-  display: flex;
-  flex-direction: column;
   position: absolute;
   transform-style: preserve-3d;
   margin-top: 25px;
@@ -38,14 +42,13 @@
 }
 
 .textContainer p {
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: 700;
   margin: 0px;
   transition: all 0.4s;
-  color: #eaeaea;
-  /* color: #2e2e2ef3; */
+
+  color: #ffe100e6;
   line-height: 10px;
-  letter-spacing: 5px;
 }
 
 .textContainer .secondary {
@@ -53,9 +56,8 @@
   transform-origin: bottom center;
   position: absolute;
   top: 0;
-  color: #ffe627;
+  color: #eaeaea;
   opacity: 0;
-  letter-spacing: 5px;
 }
 
 .textContainer:hover {
@@ -74,6 +76,17 @@
 .main {
   height: 100vh;
   overflow: hidden;
+  background: linear-gradient(
+    -50deg,
+    rgba(237, 3, 32, 0.87),
+    rgba(242, 121, 1, 0.84),
+    #ef2424,
+    #f5e022
+  );
+  background-size: 400% 400%;
+  animation: gradient 12s ease infinite;
+  height: 100vh;
+
   .mask {
     width: 100%;
     height: 100%;
@@ -91,13 +104,11 @@
     mask-image: url("./mask.svg");
     mask-repeat: no-repeat;
     /* mask-size: 140px; */
-    /* background: #1d1d1d; */
+    /* background: #1d1d1d;
     background: #0a3283;
-    /* color: #ffe627; */
-    /* background: rgba(255, 230, 39, 0.8); */
-    /* background: #1052d8; */
-    position: absolute;
+    background: #ffe100df; */
 
-    /* color: black; */
+    background: #1052d8;
+    position: absolute;
   }
 }

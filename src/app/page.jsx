@@ -4,21 +4,18 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import useMousePosition from './Components/mousePosition';
 import Link from "next/link";
+import Navigation from "./Components/Navigation";
 
 
 export default function Home() {
 
   const [isHovered, setIsHovered] = useState(false);
   const { x, y } = useMousePosition();
-  const size = isHovered ? 500 : 390;
+  const size = isHovered ? 700 : 690;
 
 // backgroundColor: "#eb4f34",
   return (
-    <main main className="main"  style={{backgroundImage: "radial-gradient( circle farthest-corner at 10% 20%,  rgba(247,87,0,1) 0%, rgba(249,0,0,1) 90.1% )"
-    
-    }}>
-
-     
+    <main main className="main"  style={{}}>
 
    <motion.div 
         className="mask"
@@ -29,11 +26,16 @@ export default function Home() {
         transition={{ type: "tween", ease: "backOut", duration:0.3}}
       ></motion.div>
 
+<Navigation/>
+    <h1 className="header-text">In Pursuit Of Joy {''} <br/> By Design_
+    </h1> 
 
-    <h1 className="header-text">In pursuit of joy {''} <br/>by design_</h1> 
-<Link href ="/Menu/Projects/"  className="move">
-
-    <div className="container" >
+<div className="link-menu">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+   <Link href ="/Menu/Projects/" className="move">
+    <div className="container">
       <div className="body">
     <div className="textContainer">
           <p className="primary">projects</p>
@@ -41,10 +43,10 @@ export default function Home() {
         </div>
       </div>
     </div>
-  
 </Link>
- 
- <Link href ="/Menu/Connect">
+    </div>
+    <div class="col-sm-3">
+      <Link href ="/Menu/Connect">
      <div className="container" >
       <div className="body">
     <div className="textContainer">
@@ -54,8 +56,9 @@ export default function Home() {
       </div>
     </div>
 </Link>
-
-<Link href ="/Menu/Studio">
+    </div>
+    <div class="col-sm-3">
+      <Link href ="/Menu/Studio">
      <div className="container" >
       <div className="body">
     <div className="textContainer">
@@ -66,6 +69,20 @@ export default function Home() {
       </div>
     </div>
    </Link>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
 </main>
   );
 }
