@@ -1,7 +1,6 @@
 import './projects.css'
 import projectData from './Data'
 
-
 export default function Page(){
 
 let proCards = projectData.map((item, index)=> {
@@ -19,11 +18,19 @@ return(
     <br/>
 	<h1 className='card-title'>{item.title}</h1>
   <p className='card-desc'>{item.text}</p>
+  <br></br>
+<span className='card-link'>
+  <a href={item.link}> 
+<span> Website 
 
-
+</span></a>
+<a href={item.git}> 
+<span> Github
+  </span></a>
+</span>
 <br/><br/>
 
-<svg class="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="5" y1="12" x2="19" y2="12" />  <line x1="15" y1="16" x2="19" y2="12" />  <line x1="15" y1="8" x2="19" y2="12" /></svg>github
+{/*github */}
 
   </div>
   
@@ -35,13 +42,70 @@ return(
 
 return(
 
-<section className="pro-section">
-<div className='pro-container'>
+<section className="">
+  <div className='pro-container'>
+  <header className="masthead">
+    <div className="container">
+        <div className="row align-items-center">
+            <div className="col-lg-7 py-5">
+                <h1 className="mb-4"> Projects 
+             <h2 className="m-0">Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h2>
+
+
+                </h1>
+                   
+            </div>
+        
+                
+            <div className="col-lg-4">
+                <div className="py-5 px-4 masthead-cards">
+                    <div className="d-flex">
+                        <a href="#" className="w-50 pr-3 pb-4">
+                            <div className="card border-0 border-bottom-red shadow-lg shadow-hover">
+                                <div className="card-body text-center">
+                                    <div className="text-center">
+                                        <i className="fa fa-pencil fa-4x my-2"></i>
+                                    </div>
+                                  github
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" className="w-50 pl-3 pb-4">
+                            <div className="card border-0 border-bottom-blue shadow-lg shadow-hover">
+                                <div className="card-body text-center">
+                                    <div className="text-center">
+                                        <i className="fa fa-th fa-4x my-2"></i>
+                                    </div>
+                                 connect
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="d-flex">
+                    </div>
+                    <div className="shape"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</header>
+    </div>
+<header>
+
+
+
+</header>
+
+
+
+{/* <div className='pro-container'>
   <div className="pro-header">PROJECTS
   <div className="pro-sub">L'informatique est vaste et les langages naissent presque à tout moment, je fais tout mon possible pour être à la hauteur afin de répondre au besoin de mes clients et d'apporter de l'aide aux nouveaux développeurs.</div>
   </div>
   </div>
-  <div className='h_line'></div>
+  <div className='h_line'></div> */}
 
 <section>
   <div class="wrapper">
