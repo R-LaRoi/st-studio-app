@@ -1,21 +1,6 @@
-/* body {
-  margin: 0;
-
-
-} */
-
-body {
-  /* background: linear-gradient(
-    -50deg,
-    rgba(237, 3, 32, 0.87),
-    rgba(242, 121, 1, 0.84),
-    #ef2424,
-    #f5e022
-  );
-  background-size: 400% 400%;
-  animation: gradient 12s ease infinite;
-  height: 100vh; */
-}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @keyframes gradient {
   0% {

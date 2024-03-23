@@ -1,0 +1,114 @@
+
+// import jmp from "./assets/jfeet.mp4";
+// import tsc from "./assets/tsc.mp4";
+// import vista from "./assets/vista.mp4";
+// import defpresse from './assets/defpromovid2.mp4'
+// import stl from "./assets/stl.mp4";
+// import juice from "./assets/winJuice.mp4";
+// import atc from "./assets/atclip5.mp4";
+// import book from "./assets/book.mp4";
+// import bear from "./assets/brnbear.mp4";
+
+
+const projectData = [
+ {
+   id:11, 
+      // video: defpresse,
+    // image:
+    title: 'Def Pressé',
+  text:'London based record Label run by people primarily concerned with music. ',
+git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
+link:'https://fbc2f3-2.myshopify.com'
+  },
+   {
+   id:12, 
+      // video: atc,
+    // image:
+    title: 'Atelier 718',
+  text:'An e-commerce storefront for Brooklyn based apparel company. ',
+git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
+link:'https://atelier718.com'
+  },
+
+ {
+   id:13, 
+      // video: vista,
+    // image:
+    title: 'Vista',
+  text:'Created an e-commerce platform. ',
+git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
+link:'https://fashionvista.vercel.app/'
+  },
+
+
+
+
+
+    {
+    id:14, 
+    // video: juice,
+    title: 'Win & Juice',
+  text:'Juice Mobile App',
+git:'https://github.com/R-LaRoi/Flavor-App',
+link:'https://win-and-juice.netlify.app/'
+
+  },
+
+  { id:15,
+    // video: tsc,
+    image: '',
+    title: 'TS Consultancy',
+  text: 'Private consultancy webpage for early childhood counseling and therapy. ' 
+,
+link:'https://truptisamuelconsultancy.au'
+  },
+
+   { 
+    id:16,
+  // video: jmp,
+    image: '',
+    title: 'Move',
+  text:'Daily excercise log and fitness coach profile.',
+git:'https://github.com/R-LaRoi/Move-app',
+link:'https://whatsthemoveapp.netlify.app/'
+
+  },
+
+
+,{
+    id:17, 
+    // video:bear,
+    title: 'The Purple Cat',
+  text:'Child friendly chrome dashboard. ',
+// git:'https://app.netlify.com/sites/the-purple-cat-dbext-a811b8/settings/general',
+link:'https://the-purple-cat-dbext-a811b8.netlify.app/'
+  },
+  {
+    id:18, 
+    // video:book,
+    title: 'Prolouge',
+  text:'Firebase | React',
+// git:'https://github.com/R-LaRoi/Shopping-Cart',
+link:'https://writers-block-13d59d.netlify.app/'
+  },
+ 
+
+
+
+
+
+  {
+    id:7, 
+    // video:stl,
+    title: 'TRAVEL',
+  text:'Saint Lucia travel profile.',
+// git:'https://github.com/R-LaRoi/7-Day-Forecast',,
+link:'https://saintluciatravel.netlify.app/'
+  },
+
+ 
+
+
+]
+
+ export default projectData

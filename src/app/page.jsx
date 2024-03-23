@@ -27,12 +27,14 @@ export default function Home() {
       ></motion.div>
 
 <Navigation/>
-    <h1 className="header-text">In Pursuit Of Joy {''} <br/> By Design_
+    <h1 className="text-center header-text">In pursuit of joy {''} <br/> by design_
+ 
     </h1> 
 
 <div className="link-menu">
-  <div class="container">
-  <div class="row">
+   
+  <div class="container ">
+  <div class= "row">
     <div class="col-sm-3">
    <Link href ="/Menu/Projects/" className="move">
     <div className="container">

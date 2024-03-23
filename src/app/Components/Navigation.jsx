@@ -14,8 +14,8 @@ return (
   <li className="nav-item">
     <a className="nav-link" href="#">Connect</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" aria-disabled="true">Sudio</a>
+  <li className="nav-item">
+    <a className="nav-link disabled" aria-disabled="true">Sudio</a>
   </li>
 </ul>
   <div>
