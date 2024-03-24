@@ -9,25 +9,36 @@ if(index < 8)
 
 return(
 
-  <div class="box1" key={item.id}> 
- <small> 2024
+  <div class="" key={item.id}> 
+ <small> <span className='git'>{item.svg}</span>
     </small>
-    <br/>    <br/>
-   <img  src="https://flowbite.com/docs/images/people/profile-picture-1.jpg"  class="rounded-full h-12 w-12" />
-
-    <br/>
-	<h1 className='card-title'>{item.title}</h1>
+    <br/>   
+    <span className='card--'>
+      <img  src="https://flowbite.com/docs/images/people/profile-picture-1.jpg"  className="rounded-full h-12 w-12" />
+	<h1 className='card-title'>
+  {item.title}</h1>
+   
+</span>
   <p className='card-desc'>{item.text}</p>
   <br></br>
-<span className='card-link'>
+  <ul>
+<li className='card-link'>
   <a href={item.link}> 
-<span> Website 
+ Website  
+</a></li>
+<li className='card-link'>
+  <a href={item.git}> 
+Github </a></li>
+  </ul>
 
-</span></a>
-<a href={item.git}> 
-<span> Github
+
+{/* </span></a>
+<a href={item.git} > 
+Github
+<span> 
+
   </span></a>
-</span>
+</li> */}
 <br/><br/>
 
 {/*github */}
@@ -48,6 +59,7 @@ return(
     <div className="container">
         <div className="row align-items-center">
             <div className="col-lg-7 py-5">
+
                 <h1 className="mb-4"> Projects 
              <h2 className="m-0">Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h2>
 
