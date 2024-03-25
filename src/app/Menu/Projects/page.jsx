@@ -1,9 +1,11 @@
 import './projects.css'
 import projectData from './Data'
+// import twe from './jump.png'
 
 export default function Page(){
 
 let proCards = projectData.map((item, index)=> {
+
 
 if(index < 8)
 
@@ -14,14 +16,16 @@ return(
     </small>
     <br/>   
     <span className='card--'>
-      <img  src="https://flowbite.com/docs/images/people/profile-picture-1.jpg"  className="rounded-full h-12 w-12" />
+<img  src={item.photo}  className="rounded-full h-12 w-12" />
 	<h1 className='card-title'>
   {item.title}</h1>
-   
+
 </span>
-  <p className='card-desc'>{item.text}</p>
-  <br></br>
+   <p className='card-desc'>{item.text}</p> 
+
   <ul>
+   
+     <br></br>  
 <li className='card-link'>
   <a href={item.link}> 
  Website  
@@ -30,7 +34,6 @@ return(
   <a href={item.git}> 
 Github </a></li>
   </ul>
-
 
 {/* </span></a>
 <a href={item.git} > 
@@ -55,12 +58,14 @@ return(
 
 <section className="">
   <div className='pro-container'>
+
   <header className="masthead">
     <div className="container">
         <div className="row align-items-center">
             <div className="col-lg-7 py-5">
 
-                <h1 className="mb-4"> Projects 
+
+                <h1 className="mb-4"> Designed to go places.
              <h2 className="m-0">Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h2>
 
 
@@ -96,6 +101,7 @@ return(
                     <div className="d-flex">
                     </div>
                     <div className="shape"></div>
+         
                 </div>
             </div>
         </div>
