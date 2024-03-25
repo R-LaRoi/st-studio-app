@@ -1,30 +1,24 @@
 
-
-
 const projectData = [
- {
-   id:11, 
-     title: 'Def Pressé',
 
-  text:'London based record Label run by people primarily concerned with music. ',
-git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
-link:'https://fbc2f3-2.myshopify.com',
-photo:"https://github.com/R-LaRoi/st-studio-app/assets/114012059/c5593530-a2ea-442a-95b4-d13698f795c5",
-    svg: <svg className="w-[20px] h-[20px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-  <path stroke="currentColor" strokeLinejoin="round" strokeWidth="1" d="M20 16v-4a8 8 0 1 0-16 0v4m16 0v2a2 2 0 0 1-2 2h-2v-6h2a2 2 0 0 1 2 2ZM4 16v2a2 2 0 0 0 2 2h2v-6H6a2 2 0 0 0-2 2Z"/>
+   { id:15,
+    // video: tsc,
+    image: '',
+    title: 'TSC',
+  text: 'Trupti Samuel Consultancy, a company profile providing parental consults and professional development workshops. Users are able to navigate information about the services provided. Some key features include consultation scheduling and learn more button. Users are able to fill out a contact form and send a message to TSC company email.'
+, 
+link:'https://truptisamuelconsultancy.au',
+photo:"https://github.com/R-LaRoi/st-studio-app/assets/114012059/c9e7adbb-45a0-4267-a2e8-0e574ed25578",
+svg: <svg className="ww-[20px] h-[20px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.948 8.948 0 0 0 12 21Zm3-11a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
 </svg>
 
-,
-
-  
   },
-
-
 
    {
    id:12, 
     title: 'Atelier 718',
-  text:'An e-commerce storefront for Brooklyn based apparel company. ',
+  text:'Atelier 718 is an e-commerce storefront hosted on Shopify. Key features implemented using Shopify liquid markup language. ',
 git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
 link:'https://atelier718.com',
     photo: "https://github.com/R-LaRoi/st-studio-app/assets/114012059/552643ff-0179-439e-98ee-1abc6eb8d526",
@@ -37,27 +31,24 @@ link:'https://atelier718.com',
  {
    id:13, 
        title: 'Vista',
-  text:'Created an e-commerce platform. ',
+  text:'Vista is an e-commerce platform that allows users to create a custom storefront and subdomain. Some key features include custom store banner, product archive, search functionality, shopping cart, and order history.',
+
 git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
 link:'https://fashionvista.vercel.app/',
 photo: "https://github.com/R-LaRoi/st-studio-app/assets/114012059/bf80eb1a-80a1-42b5-a668-8201451a15c0",
 
     svg: <svg className="w-[20px] h-[20px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M6 12c.263 0 .524-.06.767-.175a2 2 0 0 0 .65-.491c.186-.21.333-.46.433-.734.1-.274.15-.568.15-.864a2.4 2.4 0 0 0 .586 1.591c.375.422.884.659 1.414.659.53 0 1.04-.237 1.414-.659A2.4 2.4 0 0 0 12 9.736a2.4 2.4 0 0 0 .586 1.591c.375.422.884.659 1.414.659.53 0 1.04-.237 1.414-.659A2.4 2.4 0 0 0 16 9.736c0 .295.052.588.152.861s.248.521.434.73a2 2 0 0 0 .649.488 1.809 1.809 0 0 0 1.53 0 2.03 2.03 0 0 0 .65-.488c.185-.209.332-.457.433-.73.1-.273.152-.566.152-.861 0-.974-1.108-3.85-1.618-5.121A.983.983 0 0 0 17.466 4H6.456a.986.986 0 0 0-.93.645C5.045 5.962 4 8.905 4 9.736c.023.59.241 1.148.611 1.567.37.418.865.667 1.389.697Zm0 0c.328 0 .651-.091.94-.266A2.1 2.1 0 0 0 7.66 11h.681a2.1 2.1 0 0 0 .718.734c.29.175.613.266.942.266.328 0 .651-.091.94-.266.29-.174.537-.427.719-.734h.681a2.1 2.1 0 0 0 .719.734c.289.175.612.266.94.266.329 0 .652-.091.942-.266.29-.174.536-.427.718-.734h.681c.183.307.43.56.719.734.29.174.613.266.941.266a1.819 1.819 0 0 0 1.06-.351M6 12a1.766 1.766 0 0 1-1.163-.476M5 12v7a1 1 0 0 0 1 1h2v-5h3v5h7a1 1 0 0 0 1-1v-7m-5 3v2h2v-2h-2Z"/>
-</svg>,
-
+</svg>
 
   },
 
 
-
-
-
     {
     id:14, 
-    // video: juice,
     title: 'Juice',
-  text:'Juice Mobile App',
+    text:'Juice is a mobile app displaying a menu. Users are then able to select an item to be added to the cart. Key features include an order modal and payment request modal.',
+
 git:'https://github.com/R-LaRoi/Flavor-App',
 link:'https://win-and-juice.netlify.app/',
 photo: 'https://github.com/R-LaRoi/st-studio-app/assets/114012059/7fe32bd8-4cce-433f-957e-ae6513aaf193',
@@ -68,26 +59,13 @@ svg: <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" x
 
   },
 
-  { id:15,
-    // video: tsc,
-    image: '',
-    title: 'TSC',
-  text: 'Private consultancy webpage for early childhood counseling and therapy. ' 
-,
-link:'https://truptisamuelconsultancy.au',
-photo:"https://github.com/R-LaRoi/st-studio-app/assets/114012059/c9e7adbb-45a0-4267-a2e8-0e574ed25578",
-svg: <svg className="ww-[20px] h-[20px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.948 8.948 0 0 0 12 21Zm3-11a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
-</svg>
-
-  },
-
+ 
    { 
     id:16,
-  // video: jmp,
+title: 'JMPN',
     image: '',
-    title: 'Move',
-  text:'Daily excercise log and fitness coach profile.',
+  text:'JMPN is a mobile fitness coach profile app that allows the user to access a form and input a workout. Key features include a form modal,contact form, wokout history.' ,
+
 git:'https://github.com/R-LaRoi/Move-app',
 link:'https://whatsthemoveapp.netlify.app/',
 photo:"https://github.com/R-LaRoi/st-studio-app/assets/114012059/3d7e86f1-e969-4604-82d8-d4f2bb351bc1",
@@ -103,8 +81,8 @@ svg: <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" x
     id:17, 
     // video:bear,
     title: 'The Purple Cat',
-  text:'Child friendly chrome dashboard. ',
-// git:'https://app.netlify.com/sites/the-purple-cat-dbext-a811b8/settings/general',
+  text:'A child friendly chrome extension dashboard that displays  weather and word of the day Key features includes and dictionary search, activity generator and  a reading list. ',
+git:'https://app.netlify.com/sites/the-purple-cat-dbext-a811b8/settings/general',
 link:'https://the-purple-cat-dbext-a811b8.netlify.app/',
 photo:'https://github.com/R-LaRoi/st-studio-app/assets/114012059/20343c0f-abdb-4bfd-b690-5e6c72212788',
 svg: <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -146,7 +124,22 @@ svg: <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" x
 
   },
 
- 
+ {
+   id:11, 
+     title: 'Def Pressé',
+
+  text:'London based record Label run by people primarily concerned with music. ',
+git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
+link:'https://fbc2f3-2.myshopify.com',
+photo:"https://github.com/R-LaRoi/st-studio-app/assets/114012059/c5593530-a2ea-442a-95b4-d13698f795c5",
+    svg: <svg className="w-[20px] h-[20px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" strokeLinejoin="round" strokeWidth="1" d="M20 16v-4a8 8 0 1 0-16 0v4m16 0v2a2 2 0 0 1-2 2h-2v-6h2a2 2 0 0 1 2 2ZM4 16v2a2 2 0 0 0 2 2h2v-6H6a2 2 0 0 0-2 2Z"/>
+</svg>
+
+,
+  
+  },
+
 
 
 ]
