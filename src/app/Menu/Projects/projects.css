@@ -6,6 +6,38 @@
   margin: auto;
 }
 
+.pro-container {
+  padding: 3rem 0 5rem;
+  position: relative;
+  background: linear-gradient(
+    -50deg,
+    rgba(237, 3, 32, 0.87),
+    rgba(242, 121, 1, 0.84) /* #ef2424,
+    #f5e022 */
+  );
+
+  background-size: cover;
+  z-index: 0;
+  padding: 6rem;
+}
+
+.pro-container h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 0.8;
+  z-index: 1;
+}
+
+.pro-container h3 {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  z-index: 1;
+  font-size: 1.6rem;
+  margin-top: -3%;
+  margin-left: 7%;
+}
+
 .card-container {
   padding-top: 4rem;
   display: grid;
@@ -24,32 +56,18 @@
   );
 }
 
-.pro-sub {
+/* .pro-sub {
   font-size: 1rem;
   font-weight: 100;
   color: white;
   margin: 0 auto;
   width: 600px;
-}
-
-.git {
-  float: right;
-}
-
-#card-body {
-  border: none;
-}
+} */
 
 .card-title {
   font-weight: 800;
   font-size: 2rem;
   letter-spacing: 1px;
-  margin-top: 10%;
-}
-.card-desc {
-  font-size: 0.8rem;
-  font-weight: 300;
-  padding: 1.5rem;
 }
 
 .card-- {
@@ -85,54 +103,10 @@ ul {
       grid-template-columns: repeat(1, minmax(300px, auto));
     }
   }
-  /* 
-  }
-  .box1 {
-    grid-column: 1/5;
-  } */
-  /* .box2 {
-    grid-column: 1/5;
-    grid-row: 2;
-  }
-  .box3 {
-    grid-row: 3;
-  }
-  .box4 {
-    grid-row: 4;
-  } */
 }
 
 body {
   margin-top: 0px;
-}
-
-.masthead {
-  padding: 3rem 0 5rem;
-  position: relative;
-  background: linear-gradient(
-    -50deg,
-    rgba(237, 3, 32, 0.87),
-    rgba(242, 121, 1, 0.84) /* #ef2424,
-    #f5e022 */
-  );
-
-  background-size: cover;
-  z-index: 0;
-}
-
-.masthead h1 {
-  color: #fff;
-  font-weight: 700;
-  font-size: 4rem;
-  line-height: 0.8;
-  z-index: 1;
-}
-
-.masthead h2 {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 600;
-  z-index: 1;
-  font-size: 1.5rem;
 }
 
 /* .masthead a {
@@ -150,16 +124,16 @@ body {
 } */
 
 @media (min-width: 992px) {
-  .masthead h1 {
+  .pro-container h1 {
     font-size: 6rem;
     padding: 3rem;
   }
-  .masthead h2 {
+  .pro-container h2 {
     font-size: 2.5rem;
     padding: 2rem;
     line-height: 1;
   }
-  .masthead .masthead-cards .shape {
+  .pro-container .masthead-cards .shape {
     position: absolute;
     height: 100%;
     width: 90%;
@@ -177,7 +151,7 @@ body {
   z-index: 1;
 } */
 
-.masthead .masthead-cards .shape {
+.pro-container .masthead-cards .shape {
   position: absolute;
   height: 60%;
   width: 30%;
@@ -200,13 +174,13 @@ body {
 } */
 
 @media (max-width: 768px) {
-  .masthead h1 {
+  .pro-container h1 {
     font-size: 4rem;
     padding: 2rem;
     position: relative;
     z-index: 2;
   }
-  .masthead h2 {
+  .pro-container h2 {
     font-size: 1.8rem;
     padding: 1rem;
     line-height: 1;
@@ -214,7 +188,7 @@ body {
     position: relative;
   }
 
-  .masthead .masthead-cards .shape {
+  .pro-container .masthead-cards .shape {
     position: absolute;
     height: 70%;
     width: 90%;

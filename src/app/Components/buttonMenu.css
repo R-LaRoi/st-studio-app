@@ -1,0 +1,97 @@
+.btn-grid {
+  margin: 0 auto;
+  margin-top: 12%;
+}
+
+.btn {
+  font: inherit;
+  width: 156px;
+  height: 60px;
+  background: #ececec;
+  border-radius: 100px;
+  padding: 20px 35px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  overflow: hidden;
+  text-transform: uppercase;
+  /* border: 1px solid whitesmoke; */
+  color: rgb(51, 50, 49);
+}
+
+.btn-before {
+  font: inherit;
+  /* top: 50%;
+  left: 30%; */
+  color: #1e1c1c;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.btn-one:before {
+  content: "projects";
+}
+
+.btn-two:before {
+  content: "connect";
+}
+
+.btn-three:before {
+  content: "studio_";
+}
+
+.btn-one:after {
+  content: "projects";
+  margin-top: 1px;
+  color: #1e1c1c;
+  background-color: rgb(240, 244, 6);
+  width: 156px;
+  height: 60px;
+  padding: 20px 25px;
+}
+
+.btn-two:after {
+  content: "meet rachel";
+  margin-top: 1px;
+  color: #1e1c1c;
+  background-color: rgb(244, 6, 181);
+  width: 156px;
+  height: 60px;
+  padding: 20px 25px;
+}
+
+.btn-three:after {
+  margin-top: 1px;
+  color: #1e1c1c;
+  content: "art&design";
+  background-color: rgb(244, 93, 6);
+  width: 156px;
+  height: 60px;
+  padding: 20px 25px;
+}
+
+.btn:hover:before {
+  top: -290px;
+}
+.btn:after {
+  font: inherit;
+  font-size: 1rem;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+.btn:hover:after {
+  top: 50%;
+}
+
+/* ---------------------btn end  */

@@ -21,15 +21,15 @@
 }
 
 .link-menu {
-  margin-top: -5%;
-  width: max-content;
+  /* margin-top: -5%;
+  width: max-content; */
 }
 
 .header-text {
   margin-top: 10%;
   color: #fffffff5;
   font-family: "Cal-Sans";
-  font-size: 9rem;
+  font-size: 8rem;
   line-height: 0.9;
   letter-spacing: -1px;
   position: relative;
@@ -92,7 +92,7 @@
     #ef2424,
     #f5e022
   );
-  background-size: 400% 400%;
+  background-size: 300% 300%;
   animation: gradient 12s ease infinite;
   height: 100vh;
 
