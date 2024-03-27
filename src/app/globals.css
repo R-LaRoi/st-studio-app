@@ -2,6 +2,17 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* @font-face {
+  font-family: "Mabry";
+  src: local("Mabry"), url("./Styles/Mabry-Pro-Black.ttf") format("opentype");
+} */
+
+@font-face {
+  font-family: "Cal-Sans";
+  src: local("Cal-Sans"),
+    url("./Styles/CalSans-SemiBold.ttf") format("opentype");
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -12,4 +23,97 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.canvas-body {
+  background-color: #1053d8d5;
+  color: white;
+  font-family: "Cal-Sans";
+  letter-spacing: 1px;
+  font-size: 3rem;
+}
+
+.off-nav-btn {
+  background-color: #ef4444;
+  border: none;
+  position: fixed;
+  color: rgb(255, 255, 255);
+  z-index: 99;
+  font-size: 1.7rem;
+  left: 0;
+  font-weight: 800;
+  border-radius: 0px;
+  padding: 2rem;
+}
+
+.off-nav-list {
+  display: flex;
+  flex-direction: column;
+}
+.offcanvas-header .btn-close {
+  background-color: black;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.nav-text {
+  font-size: 1rem;
+}
+
+.body {
+  position: absolute;
+  transform-style: preserve-3d;
+  perspective: 600px;
+
+  /* margin-top: 25px;
+  margin-left: 25px;
+  */
+  font-family: "Cal-sans";
+}
+.textContainer {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+}
+
+.textContainer p {
+  font-size: 3vw;
+  font-weight: 700;
+  /* margin: 10px; */
+  transition: all 0.4s;
+  color: #ffffffe6;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  line-height: 50px;
+}
+
+.textContainer .secondary {
+  transform: rotateX(-90deg) translateY(3.5vw);
+  transform-origin: bottom center;
+  position: absolute;
+  top: 0;
+  color: #fff312da;
+
+  opacity: 0;
+}
+
+.textContainer:hover {
+  transform: rotateX(90deg);
+}
+
+.textContainer:hover .secondary {
+  opacity: 1;
+}
+
+.textContainer:hover .primary {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.container {
+  /* margin: -13%; */
+  padding: 1.5rem;
+  /* margin-left: 25%; */
 }

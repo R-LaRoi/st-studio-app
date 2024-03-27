@@ -1,6 +1,7 @@
+"use client";
 import './projects.css'
 import projectData from './Data'
-// import twe from './jump.png'
+import Navigation from "../../Components/Navigation"
 
 export default function Page(){
 
@@ -56,9 +57,12 @@ bg-none sm:rounded-xl backdrop-opacity-10 " />
 
 return(
 
-<section className="">
+<>
 
+<section className="">
+<Navigation />
   <div className='pro-container'>
+
   <header className="">
     <div className="">
         <div className="row align-items-center">
@@ -71,7 +75,7 @@ return(
             <div className="col-lg-4">
                 <div className="py-5 px-4 masthead-cards">
                        <div className="shape"></div>
-                   
+          
          
                 </div>
             </div>
@@ -100,7 +104,7 @@ return(
 </section>
 
 </section>
-
+</>
 )
  
 }

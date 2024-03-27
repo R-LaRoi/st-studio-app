@@ -27,6 +27,7 @@
   font-size: 4rem;
   line-height: 0.8;
   z-index: 1;
+  padding: 2rem;
 }
 
 .pro-container h3 {
@@ -125,13 +126,13 @@ body {
 
 @media (min-width: 992px) {
   .pro-container h1 {
-    font-size: 6rem;
-    padding: 3rem;
+    /* font-size: 6rem;
+    padding: 3rem; */
   }
   .pro-container h2 {
-    font-size: 2.5rem;
-    padding: 2rem;
-    line-height: 1;
+    /* font-size: 2.5rem;
+    padding: 4rem;
+    line-height: 1; */
   }
   .pro-container .masthead-cards .shape {
     position: absolute;
@@ -175,29 +176,33 @@ body {
 
 @media (max-width: 768px) {
   .pro-container h1 {
-    font-size: 4rem;
-    padding: 2rem;
+    font-size: 4.5rem;
+    padding: 0rem;
     position: relative;
     z-index: 2;
+    right: 20%;
+    margin-top: 20%;
   }
-  .pro-container h2 {
-    font-size: 1.8rem;
-    padding: 1rem;
+  .pro-container h3 {
+    font-size: 1.5rem;
+    padding: 3rem 0.5rem;
     line-height: 1;
     z-index: 2;
     position: relative;
+    right: 20%;
+    /* width: 300px; */
   }
 
   .pro-container .masthead-cards .shape {
     position: absolute;
-    height: 70%;
+    height: 60%;
     width: 90%;
     background-color: #1052d8;
     top: 0;
     left: 0;
-    margin-top: 10%;
+    margin-top: 35%;
     z-index: -1;
-    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    border-radius: 20% 70% 70% 30%/30% 30% 70% 70%;
   }
 
   /* .masthead .masthead-cards {

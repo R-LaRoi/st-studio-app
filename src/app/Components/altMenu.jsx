@@ -38,8 +38,8 @@ export default function Home() {
 
 
   <div class="container ">
-  <div class= "row">
-    <div class="col-sm-3">
+  <div class= "">
+    <div class="">
    <Link href ="/Menu/Projects/" className="move">
     <div className="container">
       <div className="body">
@@ -51,7 +51,7 @@ export default function Home() {
     </div>
 </Link>
     </div>
-    <div class="col-sm-3">
+    <div class="">
       <Link href ="/Menu/Connect">
      <div className="container" >
       <div className="body">
@@ -63,7 +63,7 @@ export default function Home() {
     </div>
 </Link>
     </div>
-    <div class="col-sm-3">
+    <div class="">
       <Link href ="/Menu/Studio">
      <div className="container" >
       <div className="body">

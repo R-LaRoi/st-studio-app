@@ -15,4 +15,12 @@ module.exports = {
     },
   },
   plugins: [],
+
+  theme: {
+    extend: {
+      transitionProperty: {
+        width: "width",
+      },
+    },
+  },
 };

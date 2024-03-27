@@ -3,8 +3,7 @@ import "./Styles/pages.css";
 import { useState } from 'react';  
 import { motion } from 'framer-motion';
 import useMousePosition from './Components/mousePosition';
-import Link from "next/link";
-import Navigation from './Components/Navigation';
+
 import ButtonMenu from './Components/ButtonMenu'
 
 
@@ -16,7 +15,10 @@ export default function Home() {
 
 // backgroundColor: '#eb4f34',
   return (
-    <main main className='main'  style={{}}>
+
+    <>
+
+    <main className='main'>
 
    <motion.div 
         className='mask'
@@ -40,8 +42,6 @@ export default function Home() {
 
 
 <div className='btn btn-three'></div> */}
-
-
 
 
 
@@ -93,5 +93,6 @@ export default function Home() {
 
 
 </main>
+</>
   );
 }
