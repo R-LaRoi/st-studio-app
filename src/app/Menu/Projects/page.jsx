@@ -68,7 +68,6 @@ return(
         <div className="row align-items-center">
             <div className="col-lg-7 py-5">
                 <h1 className> Designed to go places.
-
                 </h1>
                     <h3>Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h3>
             </div>

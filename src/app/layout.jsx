@@ -21,4 +21,3 @@ export default function RootLayout({ children }) {
 }
 
 
-// style={{backgroundColor: "#eb4f34"}}

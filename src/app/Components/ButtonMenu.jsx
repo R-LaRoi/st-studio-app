@@ -9,9 +9,9 @@ return(
 <section>
 
 <div className=" btn-grid">
-<div className="container">
+<div className="btn-container">
   <div className="row">
-    <div className="col-2">
+    <div className="col-2  col-btns">
       <Link href ="/Menu/Projects/" className="move">
 <div className="btn btn-one"></div>
 </Link>
@@ -21,6 +21,7 @@ return(
 <div className="btn btn-two"></div>
 </Link>
     </div>
+  
     <div className="col-2">
       <Link href ="/Menu/Studio">
 <div className="btn btn-three"></div>

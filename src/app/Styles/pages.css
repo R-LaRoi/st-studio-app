@@ -54,3 +54,33 @@
     position: absolute;
   }
 }
+
+@media (max-width: 768px) {
+  .header-text {
+    margin-top: 45%;
+    color: #fffffff5;
+    font-family: "Cal-Sans";
+    font-size: 6rem;
+    line-height: 0.9;
+    letter-spacing: -1px;
+    position: relative;
+    text-transform: capitalize;
+  }
+}
+@media (max-width: 576px) {
+  .header-text {
+    margin-top: 35%;
+    color: #fffffff5;
+    font-family: "Cal-Sans";
+    font-size: 4rem;
+    line-height: 0.9;
+    letter-spacing: -1px;
+    position: relative;
+    text-transform: capitalize;
+    padding: 4rem 3.5rem;
+  }
+
+  .main {
+    height: 120vh;
+  }
+}

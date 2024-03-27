@@ -3,6 +3,12 @@
   margin-top: 12%;
 }
 
+.btn-container {
+  margin: -13%;
+  padding: 7.5rem;
+  margin-left: 25%;
+}
+
 .btn {
   font: inherit;
   width: 156px;
@@ -95,3 +101,41 @@
 }
 
 /* ---------------------btn end  */
+
+@media (max-width: 1206px) {
+  .btn-container {
+    /* margin: 10%; */
+    padding: 0rem;
+    margin: 50px -40px;
+    padding-left: 15%;
+  }
+
+  .btn-three {
+    margin-top: 90px;
+  }
+  .btn-two {
+    margin-left: 14rem;
+  }
+  .btn-one {
+    margin-left: 7rem;
+  }
+}
+@media (max-width: 576px) {
+  .btn-container {
+    /* margin: 10%; */
+    padding: 0rem;
+    margin: 50px -40px;
+    padding-left: 25%;
+  }
+
+  .btn-three {
+    margin-top: 85px;
+  }
+  .btn-two {
+    margin-left: 4.3rem;
+    margin-top: 170px;
+  }
+  .btn-one {
+    margin-left: 9rem;
+  }
+}
