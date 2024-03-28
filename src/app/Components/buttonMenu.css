@@ -9,7 +9,7 @@
   margin-left: 25%;
 }
 
-.btn {
+.--btn {
   font: inherit;
   width: 156px;
   height: 60px;
@@ -82,10 +82,10 @@
   padding: 20px 25px;
 }
 
-.btn:hover:before {
+.--btn:hover:before {
   top: -290px;
 }
-.btn:after {
+.--btn:after {
   font: inherit;
   font-size: 1rem;
   position: absolute;
@@ -96,7 +96,7 @@
   text-transform: lowercase;
   letter-spacing: 1px;
 }
-.btn:hover:after {
+.--btn:hover:after {
   top: 50%;
 }
 
