@@ -6,24 +6,53 @@
 }
 .container {
   margin: -13%;
-  padding: 7.5rem;
+  /* padding: 15.5rem; */
   margin-left: 25%;
 }
 
 .header-text {
-  margin-top: 15%;
-  color: #fffffff5;
+  margin-top: 10%;
+  /* color: #fffffff5; */
   font-family: "Cal-Sans";
-  font-size: 9rem;
+  font-size: 8rem;
   line-height: 0.9;
   letter-spacing: -1px;
   position: relative;
   text-transform: capitalize;
+  position: relative;
+  padding: 2rem;
+  z-index: 2;
+  color: #f2f2f2;
+  /* color: #f44336; */
+  /* background-image: -webkit-linear-gradient(
+    0deg,
+    #f44336 23%,
+    #ffc107 99%,
+    #000f94 95%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
+.header-h3 {
+  color: rgba(247, 208, 176, 0.877);
+  font-weight: 600;
+  z-index: 1;
+  font-size: 1.6rem;
+  /* margin-top: -3%; */
+  margin-left: 25%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 1rem;
+  width: 700px;
+}
 .main {
   height: 100vh;
   overflow: hidden;
+
   background: linear-gradient(
     -50deg,
     rgba(237, 3, 32, 0.87),
@@ -58,7 +87,7 @@
 @media (max-width: 768px) {
   .header-text {
     margin-top: 45%;
-    color: #fffffff5;
+    /* color: #fffffff5; */
     font-family: "Cal-Sans";
     font-size: 6rem;
     line-height: 0.9;
@@ -69,15 +98,33 @@
 }
 @media (max-width: 576px) {
   .header-text {
-    margin-top: 35%;
-    color: #fffffff5;
+    margin-top: 20%;
+    text-align: center;
+    /* color: #fffffff5; */
     font-family: "Cal-Sans";
-    font-size: 4rem;
-    line-height: 0.9;
-    letter-spacing: -1px;
+    font-size: 5rem;
+    line-height: 0.8;
+    letter-spacing: -3px;
     position: relative;
     text-transform: capitalize;
-    padding: 4rem 3.5rem;
+    padding: 1rem;
+    width: 300px;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .header-h3 {
+    color: rgba(252, 121, 13, 0.877);
+    font-weight: 600;
+    z-index: 1;
+    font-size: 1.6rem;
+
+    margin-left: 5%;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 1rem;
+    width: 350px;
   }
 
   .main {

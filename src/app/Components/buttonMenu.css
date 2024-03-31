@@ -1,28 +1,33 @@
 .btn-grid {
   margin: 0 auto;
-  margin-top: 12%;
+  margin-top: 15%;
+  position: relative;
+  z-index: 5;
 }
 
 .btn-container {
-  margin: -13%;
+  margin: -18%;
+  position: relative;
+  left: 20%;
   padding: 7.5rem;
-  margin-left: 25%;
+  margin-left: 5%;
 }
 
 .--btn {
   font: inherit;
+  font-weight: 800;
   width: 156px;
   height: 60px;
-  background: #ececec;
+  background: #ffffff;
   border-radius: 100px;
-  padding: 20px 35px;
+  padding: 20px 34px;
   position: absolute;
   transform: translate(-50%, -50%);
   cursor: pointer;
   overflow: hidden;
   text-transform: uppercase;
-  /* border: 1px solid whitesmoke; */
-  color: rgb(51, 50, 49);
+  border: 1px solid rgb(255, 172, 89);
+  color: rgb(255, 172, 89);
 }
 
 .btn-before {
@@ -55,18 +60,18 @@
 .btn-one:after {
   content: "projects";
   margin-top: 1px;
-  color: #1e1c1c;
-  background-color: rgb(240, 244, 6);
+  color: #ffffff;
+  background-color: rgb(244, 70, 6);
   width: 156px;
   height: 60px;
   padding: 20px 25px;
 }
 
 .btn-two:after {
-  content: "meet rachel";
+  content: "meet_rachel";
   margin-top: 1px;
-  color: #1e1c1c;
-  background-color: rgb(244, 6, 181);
+  color: #ffffff;
+  background-color: rgb(244, 161, 6);
   width: 156px;
   height: 60px;
   padding: 20px 25px;
@@ -74,9 +79,9 @@
 
 .btn-three:after {
   margin-top: 1px;
-  color: #1e1c1c;
-  content: "art&design";
-  background-color: rgb(244, 93, 6);
+  color: #ffffff;
+  content: "art_design";
+  background-color: rgb(244, 58, 6);
   width: 156px;
   height: 60px;
   padding: 20px 25px;
