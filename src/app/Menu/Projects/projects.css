@@ -15,19 +15,19 @@
     rgba(242, 121, 1, 0.84) /* #ef2424,
     #f5e022 */
   );
-
   background-size: cover;
   z-index: 0;
-  padding: 6rem;
+  /* padding: 6rem; */
+  height: 80vh;
 }
 
 .pro-container h1 {
   color: #fff;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 7rem;
   line-height: 0.8;
   z-index: 1;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .pro-container h3 {
@@ -109,20 +109,6 @@ ul {
 body {
   margin-top: 0px;
 }
-
-/* .masthead a {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: underline;
-  z-index: 1;
-}
-
-.masthead a:hover {
-  color: #fff;
-} */
-
-/* .masthead a:active {
-  text-decoration: none;
-} */
 
 @media (min-width: 992px) {
   .pro-container h1 {
