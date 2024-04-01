@@ -1,0 +1,169 @@
+<!-- <main className="connect-container">
+  <div className="contact-card-sec">
+    <div className="ct-card ct-one">
+      <div className="ct-card-img"></div>
+      <div className="ct-card-info">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="{1.5}"
+          stroke="currentColor"
+          className="w-6 h-6 ct-svg">
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+        </svg>
+
+        <form class="max-w-md mx-auto">
+          <label
+            for="email"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >Your email</label
+          >
+          <input
+            type="email"
+            id="email"
+            aria-describedby="helper-text-explanation"
+            class="bg-gray-50 border border-gray-100 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-100 dark:border-gray-100 dark:placeholder-gray-400 dark:text-stone :focus:ring-white-500 dark:focus:border-white-500"
+            placeholder="name@flowbite.com" />
+
+          <label
+            for="message"
+            class="block mb-2 text-sm font-medium text-white-900 dark:text-white"
+            >Your message</label
+          >
+          <textarea
+            id="message"
+            rows="4"
+            class="block p-1 w-full text-sm text-stone-900 bg-white-50 rounded-lg border border-stone-50 focus:ring-stone-50 focus:border-stone-50 dark:bg-stone-50 dark:border-stone-50 dark:placeholder-stone-50 dark:text-stone 5rk:focus:ring-blue-200 dark:focus:border-blue-500"
+            placeholder="Leave a comment..."></textarea>
+
+          <div class="grid md:grid-cols-2 md:gap-6"></div>
+          <br />
+          <button
+            type="submit"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-1 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+
+    {/*
+    <div className="ct-card ct-two">
+      <div className="ct-card-img"></div>
+      <div className="ct-card-info">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          className="w-5 h-5 ct-svg">
+          <path
+            fillRule="evenodd"
+            d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+            clipRule="evenodd" />
+        </svg>
+        <div class="flex items-center gap-4">
+          <img class="w-15 h-15 rounded-circle"
+          src="https://github.com/R-LaRoi/st-studio-app/assets/114012059/2db772cf-4d0f-43b9-a00b-9084e20ff9c7"
+          alt="" style={{maxWidth:"50px"}}/>
+          <div class="font-medium dark:text-white">
+            <div>Rachel Stroy</div>
+            <div class="text-sm text-blue-700 dark:text-white-400">
+              Creative Developer
+            </div>
+          </div>
+        </div>
+        <div>
+          <p className="text-body text-sm  text-white-700  ">
+            Artist and creative developer, embracing new technologies.
+          </p>
+        </div>
+        <button className="ct-card-button">Read More</button>
+      </div>
+    </div>
+    {/*
+    <div className="ct-card ct-three">
+      <div className="ct-card-img"></div>
+      <div className="ct-card-info">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="{1.5}"
+          stroke="currentColor"
+          className="w-6 h-6">
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
+        </svg>
+
+        <div className="text-title "></div>
+
+        <div className="text-title ">rachel@stroy.dev</div>
+      </div>
+    </div>
+    */}
+  </div>
+</main> -->
+
+<!-- .connect-container { height: 100vh; background-image: url(""); background-size:
+150%; background-attachment: fixed; background-repeat: no-repeat;
+background-position: top; } .contact-h1 { font-weight: 800; font-size: 7rem;
+line-height: 0.8; z-index: 1; padding: 4.5rem; color: #3f51b5; background-image:
+-webkit-radial-gradient( circle, #3f51b5 0%, #ff9800 0%, #f44336 50% );
+background-clip: text; background-clip: text; -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; } .contact-h3 { color: rgba(224, 125, 20,
+0.797); font-weight: 600; z-index: 1; font-size: 1.6rem; margin-top: -3%;
+margin-left: 7%; } .pro-container { padding: 3rem 0 5rem; position: relative; /*
+background: linear-gradient( -50deg, rgba(237, 3, 32, 0.87), rgba(242, 121, 1,
+0.84) /* #ef2424, */ /* #f5e022 */ /* ); */ } .ct-svg { position: relative;
+bottom: 70px; float: right; } .ct-shape { position: absolute; height: 50%;
+width: 30%; background-color: #1052d8; top: 0; left: 60%; margin-top: 10%;
+z-index: -1; border-radius: 30% 70% 70% 30%/30% 30% 70% 70%; } .contact-card-sec
+{ height: 100vh; margin-top: 5rem; padding: 5rem; display: grid;
+grid-template-columns: 0.5fr 0.5fr 0.5fr; gap: 2rem; /* background: #f44336; */
+} .ct-card { font-family: inherit; font-weight: 800; font-size: 2rem; color:
+#f44336; text-align: center; border-radius: 20px; width: 400px; height: 450px;
+padding: 1.9rem; position: relative; display: flex; align-items: flex-end;
+transition: 0.4s ease-out; box-shadow: 0px 7px 20px rgba(63, 63, 63, 0.2); /*
+box-shadow: 0px 7px 20px rgba(43, 8, 37, 0.2); */ } .ct-card:before { content:
+"front"; position: absolute; top: 0; left: 0; display: block; width: 100%;
+height: 100%; z-index: 2; transition: 0.5s; border-radius: 10%; } .ct-one:before
+{ content: url(./chat.svg); color: #dfe9f3; background-color: #f44336; }
+.ct-two:before { content: "meet rachel"; } .ct-three:before { content: "links";
+} .ct-card-info { position: relative; z-index: 3; color: #f5f5f5; opacity: 0;
+transform: translateY(20%); transition: 0.5s; } /*Text*/ .text-title {
+font-size: 1.5rem; font-weight: 500; } .text-body { letter-spacing: 1px;
+font-size: 0.9rem; margin: 5px 0 15px 0; } /*Button*/ .ct-card-button { padding:
+0.6rem; outline: none; border: none; border-radius: 4px; background: #ee9ca7;
+color: white; font-weight: bold; transition: 0.4s ease; } /*Image*/ .ct-card-img
+{ border-radius: 20px; width: 100%; height: 100%; position: absolute; top: 0;
+left: 0; /* background: #fbf9f7; */ /* background: linear-gradient(to bottom,
+#e9e2e2, #272727); */ } /*Hover*/ .ct-card:hover { transform: translateY(5%); }
+.ct-card:hover:before { opacity: 1; content: ""; color: #dfe9f3;
+background-size: contain; } .ct-card:hover .ct-card-info { opacity: 1;
+transform: translateY(0); color: #dfe9f3; } .ct-card-button:hover { background:
+rgba(218, 77, 77, 0.4); color: #f5f5f5; } @media (max-width: 768px) {
+.contact-h1 { margin-top: 45%; /* color: #fffffff5; */ font-family: "Cal-Sans";
+font-size: 5rem; line-height: 0.9; letter-spacing: -1px; position: relative;
+text-transform: capitalize; } } @media (max-width: 576px) { .contact-card-sec {
+height: max-content; margin-top: 2rem; padding: 3rem; display: grid;
+grid-template-columns: 0.5fr; gap: 3rem; } .contact-h1 { margin-top: 20%;
+text-align: center; color: #dfe9f3; font-family: "Cal-Sans"; font-size: 5rem;
+line-height: 1; letter-spacing: -3px; position: relative; text-transform:
+capitalize; padding: 1rem; width: 300px; text-align: left; margin-left: 10%;
+background-image: -webkit-radial-gradient( circle, #3f51b5 0%, #ff9800 0%,
+#f44336 50% ); } .contact-h3 { color: rgba(255, 219, 190, 0.877); font-weight:
+600; z-index: 1; font-size: 1.6rem; margin-left: 5%; position: relative;
+z-index: 2; text-align: center; padding: 1rem; width: 350px; } .main { height:
+120vh; } .ct-shape { overflow: hidden; position: absolute; height: 50%; width:
+80%; background-color: #005eff; top: 10%; left: 40%; margin-top: 10%; z-index:
+-1; border-radius: 30% 70% 70% 30%/30% 30% 70% 70%; } .ct-card { font-family:
+inherit; font-weight: 800; font-size: 2rem; color: #f44336; text-align: center;
+border-radius: 20px; width: 350px; height: 420px; padding: 1rem; position:
+relative; display: flex; align-items: flex-end; transition: 0.4s ease-out;
+box-shadow: 0px 7px 20px rgba(43, 8, 37, 0.2); } } -->
