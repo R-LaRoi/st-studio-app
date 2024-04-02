@@ -23,14 +23,33 @@ className="offcanvas offcanvas-start canvas-body"
 data-bs-scroll="true" 
 tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
   <div className="offcanvas-header">
-    <h5 className="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+    <h5 className="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+<Link href ="/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+		<path stroke-dasharray="15" stroke-dashoffset="15" d="M4.5 21.5h15">
+			<animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="15;0" />
+		</path>
+		<path stroke-dasharray="15" stroke-dashoffset="15" d="M4.5 21.5V8M19.5 21.5V8">
+			<animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.3s" values="15;0" />
+		</path>
+		<path stroke-dasharray="24" stroke-dashoffset="24" d="M9.5 21.5V12.5H14.5V21.5">
+			<animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.6s" values="24;0" />
+		</path>
+		<path stroke-dasharray="30" stroke-dashoffset="30" stroke-width="2" d="M2 10L12 2L22 10">
+			<animate fill="freeze" attributeName="stroke-dashoffset" begin="0.75s" dur="0.6s" values="30;0" />
+		</path>
+	</g>
+</svg>
+</Link>
+    </h5>
     <button type="button" className="btn-close nav-xbtn" data-bs-dismiss="offcanvas" aria-label="Close">x</button>
   </div>
   <div className="offcanvas-body">
     <div className="nav-text">
 
     </div>
-{/* < ul className="off-nav-list"> */}
+
 
 <div className="nav-container">
   <div className= "">
@@ -85,30 +104,4 @@ tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOp
 </nav>
 )}
 
-{/* <nav classNameName="navbar navbar-expand-lg bg-body-tertiary">
-  <div className="container-fluid">
 
-    <a className="navbar-brand" href="#">Navbar</a>
-
-
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> */}

@@ -22,10 +22,10 @@
 }
 
 .form .title {
-  color: rgb(245, 122, 15);
-  font-size: 3rem;
+  color: rgb(255, 254, 253);
+  font-size: 1.5rem;
   font-weight: 600;
-  letter-spacing: -1px;
+
   line-height: 30px;
   display: flex;
   align-items: center;
@@ -233,4 +233,12 @@
 
 .bubble-two {
   background-color: #f14c3a;
+}
+.meet-card {
+  padding-left: 5rem;
+}
+
+.icon {
+  position: relative;
+  left: 25%;
 }

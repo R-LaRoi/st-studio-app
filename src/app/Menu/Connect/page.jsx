@@ -1,8 +1,14 @@
 import './connect.css'
 import ContactCards from '../../Components/contactCards'
 import Navigation from '../../Components/Navigation'
+
+
+
+
+
 export default function Page ()  {
-  
+
+
 return(
   <>
 
