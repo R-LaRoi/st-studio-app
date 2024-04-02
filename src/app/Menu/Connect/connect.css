@@ -92,7 +92,6 @@
 
 .ct-col-2 {
   height: 70vh;
-
   background-color: #ff9900ec;
 }
 
@@ -107,18 +106,25 @@
     /* margin-top: 45%; */
     /* color: #fffffff5; */
     font-family: "Cal-Sans";
-    font-size: 5rem;
-    line-height: 0.9;
+    font-size: 4rem;
+    line-height: 0.2;
     letter-spacing: -1px;
     position: relative;
     text-transform: capitalize;
   }
+  .ct-header {
+    height: 100vh;
+    background-image: url("./Regular_blob.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 @media (max-width: 576px) {
   .ct-header {
-    background: url("");
+    height: 100vh;
+    background-image: url("./Regular_blob.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 200%;
   }
   .contact-card-sec {
     height: max-content;
@@ -133,7 +139,7 @@
     text-align: center;
     color: #dfe9f3;
     font-family: "Cal-Sans";
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 1;
     letter-spacing: -3px;
     position: relative;
@@ -151,15 +157,15 @@
   }
 
   .contact-h3 {
-    color: rgba(255, 219, 190, 0.877);
+    color: rgba(253, 157, 78, 0.877);
     font-weight: 600;
     z-index: 1;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-left: 5%;
     position: relative;
     z-index: 2;
-    text-align: center;
-    padding: 1rem;
+    margin-top: -25%;
+    padding: 3rem;
     width: 350px;
   }
 
