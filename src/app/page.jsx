@@ -3,7 +3,6 @@ import "./Styles/pages.css";
 import { useState } from 'react';  
 import { motion } from 'framer-motion';
 import useMousePosition from './Components/mousePosition';
-
 import ButtonMenu from './Components/ButtonMenu'
 
 
