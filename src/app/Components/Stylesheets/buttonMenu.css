@@ -10,7 +10,7 @@
   font-weight: 800;
   width: 156px;
   height: 60px;
-  background: #ffffff;
+  background: transparent;
   border-radius: 100px;
   padding: 20px 34px;
   position: absolute;
@@ -19,12 +19,11 @@
   overflow: hidden;
   text-transform: uppercase;
   border: 1px solid rgb(255, 172, 89);
-  color: rgb(255, 172, 89);
+  color: rgb(255, 251, 246);
 }
 
 .btn-before {
   font: inherit;
-
   color: #1e1c1c;
   text-transform: uppercase;
   font-size: 0.6rem;
@@ -34,6 +33,7 @@
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .btn-one:before {
@@ -59,7 +59,7 @@
 }
 
 .btn-two:after {
-  content: "meet_rachel";
+  content: "Say Hi!";
   margin-top: 1px;
   color: #ffffff;
   background-color: rgb(244, 161, 6);
@@ -71,8 +71,8 @@
 .btn-three:after {
   margin-top: 1px;
   color: #ffffff;
-  content: "art_design";
-  background-color: rgb(244, 58, 6);
+  content: "art";
+  background-color: rgb(6, 244, 85);
   width: 156px;
   height: 60px;
   padding: 20px 25px;
@@ -85,6 +85,7 @@
   font: inherit;
   font-size: 1rem;
   position: absolute;
+
   top: 150%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -112,11 +113,16 @@
   .btn-two {
     margin-left: 14rem;
   }
+
   .btn-one {
     margin-left: 7rem;
   }
 }
+
 @media (max-width: 576px) {
+  .btn-two:before {
+    content: "connect";
+  }
   .btn-grid {
     position: relative;
     float: left;
@@ -126,34 +132,61 @@
 
   .--btn {
     font: inherit;
-    font-weight: 400;
+    font-weight: 800;
     width: 130px;
-    height: 20px;
+    height: 40px;
     background: transparent;
-    border-radius: 90px;
-    /* padding: 20px 34px; */
+    /* border: none;
+    border-radius: 0px; */
+    padding: 6px 22px;
     position: absolute;
     transform: translate(-50%, -50%);
     cursor: pointer;
     overflow: hidden;
     text-transform: uppercase;
     border: 1px solid rgb(255, 172, 89);
-    color: rgb(255, 172, 89);
+    color: rgb(255, 251, 246);
   }
 
-  .--btn:hover:before {
-    top: 0px;
+  .--btn:after {
+    transform: translate(-50%, -20%);
+  }
+
+  .--btn:hover:after {
+    top: 50%;
   }
 
   .btn-three {
     margin-top: 85px;
     margin-left: 8rem;
   }
-  .btn-two {
-    /* margin-left: 4.3rem; */
-    /* margin-top: 170px; */
+  .btn-one:after {
+    content: "projects";
+    margin-top: -8px;
+    color: #ffffff;
+    background-color: rgb(244, 192, 6);
+    width: 130px;
+    height: 40px;
+    padding: 6px 22px;
+    text-transform: uppercase;
   }
-  .btn-one {
-    /* margin-left: 9rem; */
+
+  .btn-two:after {
+    margin-top: -8px;
+    color: #ffffff;
+    background-color: rgb(53, 76, 255);
+    width: 130px;
+    height: 40px;
+    padding: 6px 22px;
+    text-transform: uppercase;
+  }
+  .btn-three:after {
+    margin-top: -8px;
+    color: #ffffff;
+    background-color: rgb(255, 94, 0);
+    width: 130px;
+    height: 40px;
+    padding: 6px 22px;
+    text-transform: uppercase;
   }
 }
