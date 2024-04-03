@@ -2,11 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* @font-face {
-  font-family: "Mabry";
-  src: local("Mabry"), url("./Styles/Mabry-Pro-Black.ttf") format("opentype");
-} */
-
 @font-face {
   font-family: "Cal-Sans";
   src: local("Cal-Sans"),
@@ -25,6 +20,10 @@
   }
 }
 
+.--footer {
+  margin-top: 70%;
+}
+
 .canvas-body {
   background-color: #1053d8f3;
   color: white;
@@ -34,6 +33,11 @@
 }
 
 .off-nav-btn {
+  transition: 0.25s;
+
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: transparent;
   background-color: #1053d8;
   border: none;
   position: fixed;
@@ -41,8 +45,46 @@
   z-index: 99;
   left: 0;
   font-weight: 800;
-  border-radius: 0px 0px 50px 1px;
+  /* width: 90px; */
+  border-radius: 50%;
+  /* border-radius: 0px 0px 0px 1px; */
   padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.off-nav-btn:hover {
+  background: #202020;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+.off-nav-btn:hover {
+  background-color: #ff8000;
+  animation: bounce_613 0.4s linear;
 }
 
 .off-nav-list {
@@ -50,7 +92,6 @@
   flex-direction: column;
 }
 .offcanvas-header .btn-close {
-  /* background-color: rgb(255, 255, 255); */
   font-family: inherit;
   font-size: 2rem;
   position: relative;
@@ -66,9 +107,6 @@
   transform-style: preserve-3d;
   perspective: 600px;
 
-  /* margin-top: 25px;
-  margin-left: 25px;
-  */
   font-family: "Cal-sans";
 }
 .textContainer {
@@ -81,7 +119,7 @@
 .textContainer p {
   font-size: 3vw;
   font-weight: 700;
-  /* margin: 10px; */
+
   transition: all 0.4s;
   color: #ffffffe6;
   text-transform: uppercase;
@@ -114,7 +152,5 @@
 }
 
 .nav-container {
-  /* margin: -13%; */
   padding: 1.5rem;
-  /* margin-left: 25%; */
 }

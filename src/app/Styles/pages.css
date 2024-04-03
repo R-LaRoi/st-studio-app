@@ -87,7 +87,7 @@
 }
 @media (max-width: 576px) {
   .container {
-    background-image: url("./mask.svg");
+    /* background-image: url("./mask.svg"); */
     margin: -13%;
     /* padding: 15.5rem; */
     margin-left: 25%;
@@ -124,6 +124,6 @@
   }
 
   .main {
-    height: 120vh;
+    height: max-content;
   }
 }
