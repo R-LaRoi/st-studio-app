@@ -52,7 +52,7 @@
   content: "projects";
   margin-top: 1px;
   color: #ffffff;
-  background-color: rgb(244, 70, 6);
+  background-color: rgb(255, 87, 3);
   width: 156px;
   height: 60px;
   padding: 20px 25px;
@@ -72,7 +72,7 @@
   margin-top: 1px;
   color: #ffffff;
   content: "art";
-  background-color: rgb(6, 244, 85);
+  background-color: rgb(57, 39, 255);
   width: 156px;
   height: 60px;
   padding: 20px 25px;
@@ -85,7 +85,7 @@
   font: inherit;
   font-size: 1rem;
   position: absolute;
-
+  text-transform: uppercase;
   top: 150%;
   left: 50%;
   transform: translate(-50%, -50%);

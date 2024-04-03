@@ -23,30 +23,19 @@
   padding: 2rem;
   z-index: 2;
   color: #f2f2f2;
-  /* color: #f44336; */
-  /* background-image: -webkit-linear-gradient(
-    0deg,
-    #f44336 23%,
-    #ffc107 99%,
-    #000f94 95%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent; */
 }
 
 .header-h3 {
-  color: rgba(247, 208, 176, 0.877);
+  color: rgba(255, 249, 243, 0.877);
   font-weight: 600;
   z-index: 1;
   font-size: 1.6rem;
-  /* margin-top: -3%; */
-  margin-left: 25%;
+  margin-top: -2%;
+  /* margin-left: 25%; */
   position: relative;
   z-index: 2;
-  text-align: center;
-  padding: 1rem;
+  text-align: left;
+  padding: 1.7rem;
   width: 700px;
 }
 .main {
@@ -97,6 +86,13 @@
   }
 }
 @media (max-width: 576px) {
+  .container {
+    background-image: url("./mask.svg");
+    margin: -13%;
+    /* padding: 15.5rem; */
+    margin-left: 25%;
+  }
+
   .header-text {
     margin-top: 30%;
     text-align: center;
