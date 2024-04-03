@@ -98,7 +98,7 @@
 }
 @media (max-width: 576px) {
   .header-text {
-    margin-top: 20%;
+    margin-top: 30%;
     text-align: center;
     /* color: #fffffff5; */
     font-family: "Cal-Sans";
@@ -114,16 +114,16 @@
   }
 
   .header-h3 {
-    color: rgba(252, 121, 13, 0.877);
-    font-weight: 600;
+    color: rgba(255, 255, 255, 0.877);
+    font-weight: 400;
     z-index: 1;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 
     margin-left: 5%;
     position: relative;
     z-index: 2;
-    text-align: center;
-    padding: 1rem;
+    text-align: left;
+    padding: 2.3rem;
     width: 350px;
   }
 

@@ -29,7 +29,7 @@ export default function Home() {
       ></motion.div>
 
 
-    <h1 className='text-center header-text'>In pursuit of joy {''} <br/> by design_
+    <h1 className='header-text'>In pursuit of joy {''} <br/> by design_
 
     </h1> 
  <h3 className="header-h3">Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h3>

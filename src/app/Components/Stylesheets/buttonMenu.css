@@ -1,16 +1,8 @@
 .btn-grid {
-  margin: 0 auto;
-  margin-top: 15%;
+  margin-top: 5%;
   position: relative;
+  left: 10%;
   z-index: 5;
-}
-
-.btn-container {
-  margin: -18%;
-  position: relative;
-  left: 20%;
-  padding: 7.5rem;
-  margin-left: 5%;
 }
 
 .--btn {
@@ -32,8 +24,7 @@
 
 .btn-before {
   font: inherit;
-  /* top: 50%;
-  left: 30%; */
+
   color: #1e1c1c;
   text-transform: uppercase;
   font-size: 0.6rem;
@@ -126,21 +117,43 @@
   }
 }
 @media (max-width: 576px) {
-  .btn-container {
-    /* margin: 10%; */
-    padding: 0rem;
-    margin: 50px -40px;
-    padding-left: 25%;
+  .btn-grid {
+    position: relative;
+    float: left;
+    bottom: 3rem;
+    z-index: 5;
+  }
+
+  .--btn {
+    font: inherit;
+    font-weight: 400;
+    width: 130px;
+    height: 20px;
+    background: transparent;
+    border-radius: 90px;
+    /* padding: 20px 34px; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    border: 1px solid rgb(255, 172, 89);
+    color: rgb(255, 172, 89);
+  }
+
+  .--btn:hover:before {
+    top: 0px;
   }
 
   .btn-three {
     margin-top: 85px;
+    margin-left: 8rem;
   }
   .btn-two {
-    margin-left: 4.3rem;
-    margin-top: 170px;
+    /* margin-left: 4.3rem; */
+    /* margin-top: 170px; */
   }
   .btn-one {
-    margin-left: 9rem;
+    /* margin-left: 9rem; */
   }
 }

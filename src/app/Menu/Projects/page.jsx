@@ -63,10 +63,10 @@ return(
   <header className="">
     <div className="">
         <div className="row align-items-center">
-            <div className="col-lg-7 py-5">
+            <div className="col-lg-7 m-4 px-11 py-6 w-full pro-h1">
                 <h1 className> Designed to go places.
                 </h1>
-                    <h3>Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h3>
+                    <h3 className='w-full'>Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h3>
             </div>
             <div className="col-lg-4">
                 <div className="py-5 px-4 masthead-cards">
