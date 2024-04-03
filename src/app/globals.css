@@ -22,8 +22,12 @@
 
 .--footer {
   margin-top: 70%;
+  background-color: #1053d8f3;
 }
-
+.--svg {
+  position: relative;
+  bottom: 5.1rem;
+}
 .canvas-body {
   background-color: #1053d8f3;
   color: white;
