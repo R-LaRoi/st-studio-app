@@ -26,17 +26,17 @@ tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOp
     <h5 className="offcanvas-title" id="offcanvasWithBothOptionsLabel">
 <Link href ="/">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-		<path stroke-dasharray="15" stroke-dashoffset="15" d="M4.5 21.5h15">
+	<g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round">
+		<path strokeDasharray="15" strokeDashoffset="15" d="M4.5 21.5h15">
 			<animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="15;0" />
 		</path>
-		<path stroke-dasharray="15" stroke-dashoffset="15" d="M4.5 21.5V8M19.5 21.5V8">
+		<path strokeDasharray="15" strokeDashoffset="15" d="M4.5 21.5V8M19.5 21.5V8">
 			<animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.3s" values="15;0" />
 		</path>
-		<path stroke-dasharray="24" stroke-dashoffset="24" d="M9.5 21.5V12.5H14.5V21.5">
+		<path strokeDasharray="24" strokeDashoffset="24" d="M9.5 21.5V12.5H14.5V21.5">
 			<animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.6s" values="24;0" />
 		</path>
-		<path stroke-dasharray="30" stroke-dashoffset="30" stroke-width="2" d="M2 10L12 2L22 10">
+		<path strokeDasharray="30" strokeDashoffset="30" strokeWidth="2" d="M2 10L12 2L22 10">
 			<animate fill="freeze" attributeName="stroke-dashoffset" begin="0.75s" dur="0.6s" values="30;0" />
 		</path>
 	</g>
