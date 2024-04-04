@@ -2,6 +2,7 @@
 import './projects.css'
 import projectData from './Data'
 import Navigation from "../../Components/Navigation"
+import Footer from "../../Components/Footer"
 
 export default function Page(){
 
@@ -100,6 +101,7 @@ return(
 </section>
 
 </section>
+<Footer />
 </>
 )
  

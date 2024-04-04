@@ -1,7 +1,7 @@
 import './connect.css'
 import ContactCards from '../../Components/contactCards'
 import Navigation from '../../Components/Navigation'
-
+import Footer from "../../Components/Footer"
 
 
 
@@ -30,6 +30,6 @@ return(
 
 <ContactCards/>
 
-
+<Footer/>
   </>
 )}

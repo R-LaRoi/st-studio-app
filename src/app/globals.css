@@ -21,13 +21,20 @@
 }
 
 .--footer {
-  margin-top: 70%;
-  background-color: #1053d8f3;
+  width: 100%;
+  color: white;
 }
+
 .--svg {
-  position: relative;
-  bottom: 5.1rem;
+  padding-top: 30px;
 }
+.ft-text {
+  background-color: #1a5bda;
+  padding: 3rem;
+  font-weight: 100;
+  margin-top: -20px;
+}
+
 .canvas-body {
   background-color: #1053d8f3;
   color: white;
@@ -157,4 +164,19 @@
 
 .nav-container {
   padding: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .ft-text {
+    background-color: #1a5bda;
+    padding: 4rem;
+    font-weight: 100;
+    margin-top: -10px;
+  }
+
+  .--footer {
+    margin-top: 7rem;
+    width: 100%;
+    color: white;
+  }
 }

@@ -31,7 +31,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
-  width: 400px;
+  width: 300px;
   background-color: transparent;
   padding: 0px;
   left: 50px;
@@ -73,14 +73,14 @@
 }
 
 .form .ct-button {
-  align-self: flex-end;
+  align-self: flex-start;
   padding: 8px;
   outline: 0;
   border: 0;
   border-radius: 8px;
   font-size: 16px;
   font-weight: 500;
-  background-color: rgb(225, 113, 65);
+  background-color: rgb(44, 44, 249);
   color: #fff;
 }
 
@@ -156,6 +156,12 @@
 .social-link4:hover {
   background-color: #f84b1f;
   animation: bounce_613 0.4s linear;
+}
+
+.card-two-text {
+  font-family: "cal-sans";
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 @keyframes bounce_613 {
@@ -252,7 +258,8 @@
   background-color: #f14c3a;
 }
 .meet-card {
-  padding-left: 5rem;
+  position: relative;
+  padding-left: 10%;
 }
 
 .icon {

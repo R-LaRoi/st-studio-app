@@ -68,15 +68,17 @@ return(
     
   </div>
   <div
-    className="absolute flex text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-full transition-all duration-500 bubble-two">
+    className="absolute flex text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-36 -right-96 w-30 h-46 rounded-full transition-all duration-500 bubble-two">
 
 
 <div className="w-75 flex flex-row justify-center items-center meet-card">
-  <div className="">
+  <div className="card-two-text">
      <img className="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src="https://github.com/R-LaRoi/st-studio-app/assets/114012059/034f2a96-0cbb-4576-81d8-711966c287ac" alt="profile-photo"/>
      <div className="text-center mt-2 text-3xl font-medium">Rachel Stroy</div>
-     <div className="text-center mt-2 font-light text-sm">stroy.dev</div>
-     <div className="text-center font-normal text-lg">New York</div>
+      <div className="text-center font-normal text-lg">Software Engineer</div>
+     <div className="text-center mt-2 font-light text-sm"></div>
+        <div className="text-center mt-2 font-light text-sm">rachel@stroy.dev</div>
+      <div className="text-center mt-2 font-light text-sm">New York</div>
      <div className="px-6 text-center mt-2 font-light text-sm">
        <p>
       Software Engineer, combining technical prowess with creative design. Let's collaborate and explore the ways we can build together.
