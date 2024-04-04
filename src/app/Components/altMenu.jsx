@@ -1,88 +1,50 @@
 'use client';
-import "./Styles/pages.css";
-import { useState } from 'react';  
-import { motion } from 'framer-motion';
-import useMousePosition from './Components/mousePosition';
+
 import Link from "next/link";
-import Navigation from "./Components/Navigation";
 
-
-export default function Home() {
-
-  const [isHovered, setIsHovered] = useState(false);
-  const { x, y } = useMousePosition();
-  const size = isHovered ? 700 : 690;
-
-// backgroundColor: "#eb4f34",
-  return (
-    <main main className="main"  style={{}}>
-
-   <motion.div 
-        className="mask"
-        animate={{
-          WebkitMaskPosition: `${x - (size/2)}px ${y - (size/2)}px`,
-          WebkitMaskSize: `${size}px`,
-        }}
-        transition={{ type: "tween", ease: "backOut", duration:0.3}}
-      ></motion.div>
-
-
-    <h1 className="text-center header-text">In pursuit of joy {''} <br/> by design_
- 
-    </h1> 
+export default function AltMenu() {
+return(
+  
 
 <div className="link-menu">
-   
-{/* 
-<div className="btn"></div> */}
-
-
-  <div class="container ">
-  <div class= "">
-    <div class="">
+<div className= "link-row-3">
+    <div className="">
    <Link href ="/Menu/Projects/" className="move">
-    <div className="container">
-      <div className="body">
+    
     <div className="textContainer">
           <p className="primary">projects</p>
           <p className="secondary">projects</p>
-        </div>
-      </div>
+       
     </div>
 </Link>
     </div>
-    <div class="">
+
+    <div className="">
       <Link href ="/Menu/Connect">
-     <div className="container" >
-      <div className="body">
+  
     <div className="textContainer">
           <p className="primary">connect</p>
-          <p className="secondary">meet_rachel</p>
-        </div>
-      </div>
+          <p className="secondary">@rachel</p>
+     
     </div>
 </Link>
+
     </div>
-    <div class="">
+    <div className="">
       <Link href ="/Menu/Studio">
-     <div className="container" >
-      <div className="body">
+     
     <div className="textContainer">
             <p className="primary">studio
             <span style={{color: "#FFE627"}}>_</span> </p>
           <p className="secondary">art&design</p>
         </div>
-      </div>
-    </div>
+     
    </Link>
 
     </div>
   </div>
 </div>
 
-</div>
-
-</main>
   );
 }
 

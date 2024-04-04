@@ -3,7 +3,7 @@ import "./Styles/pages.css";
 import { useState } from 'react';  
 import { motion } from 'framer-motion';
 import useMousePosition from './Components/mousePosition';
-import ButtonMenu from './Components/ButtonMenu'
+import AltMenu from './Components/altMenu'
 import Footer from './Components/Footer'
 
 export default function Home() {
@@ -45,7 +45,7 @@ export default function Home() {
     </h1> 
  <h3 className="header-h3">Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h3>
 
-<ButtonMenu />
+<AltMenu />
 <Footer />
 
 </main>
