@@ -26,20 +26,20 @@ return(
       
        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
 	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-		<path stroke-dasharray="68" stroke-dashoffset="68" d="M3 19.5V4C3 3.44772 3.44772 3 4 3H20C20.5523 3 21 3.44772 21 4V16C21 16.5523 20.5523 17 20 17H5.5z">
-			<animate fill="freeze" attributeName="stroke-dashoffset" dur="0.9s" values="68;0" />
+		<path strokeDasharray="68" strokeDashoffsett="68" d="M3 19.5V4C3 3.44772 3.44772 3 4 3H20C20.5523 3 21 3.44772 21 4V16C21 16.5523 20.5523 17 20 17H5.5z">
+			<animate fill="freeze" attributeName="strokeDashoffsett" dur="0.9s" values="68;0" />
 		</path>
-		<path stroke-dasharray="10" stroke-dashoffset="10" d="M8 7h8" opacity="0">
+		<path strokeDasharray="10" strokeDashoffsett="10" d="M8 7h8" opacity="0">
 			<set attributeName="opacity" begin="1.05s" to="1" />
-			<animate fill="freeze" attributeName="stroke-dashoffset" begin="1.05s" dur="0.3s" values="10;0" />
+			<animate fill="freeze" attributeName="strokeDashoffsett" begin="1.05s" dur="0.3s" values="10;0" />
 		</path>
-		<path stroke-dasharray="10" stroke-dashoffset="10" d="M8 10h8" opacity="0">
+		<path strokeDasharray="10" strokeDashoffsett="10" d="M8 10h8" opacity="0">
 			<set attributeName="opacity" begin="1.2s" to="1" />
-			<animate fill="freeze" attributeName="stroke-dashoffset" begin="1.2s" dur="0.3s" values="10;0" />
+			<animate fill="freeze" attributeName="strokeDashoffsett" begin="1.2s" dur="0.3s" values="10;0" />
 		</path>
-		<path stroke-dasharray="6" stroke-dashoffset="6" d="M8 13h4" opacity="0">
+		<path stroke-dasharray="6" strokeDashoffsett="6" d="M8 13h4" opacity="0">
 			<set attributeName="opacity" begin="1.35s" to="1" />
-			<animate fill="freeze" attributeName="stroke-dashoffset" begin="1.35s" dur="0.3s" values="6;0" />
+			<animate fill="freeze" attributeName="strokeDashoffsett" begin="1.35s" dur="0.3s" values="6;0" />
 		</path>
 	</g>
 </svg>
