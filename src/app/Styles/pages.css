@@ -4,12 +4,20 @@
   padding-top: 2rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.pr-text {
+  max-width: 600px;
+}
 .container {
+  max-width: 1200px;
   margin: -13%;
   /* padding: 15.5rem; */
   margin-left: 25%;
 }
 
+.ct-header {
+  max-width: 1180px;
+}
 .header-text {
   margin-top: 5%;
   margin-left: 4%;
@@ -114,7 +122,6 @@
     font-weight: 400;
     z-index: 1;
     font-size: 1.5rem;
-
     margin-left: 1%;
     position: relative;
     z-index: 2;
@@ -126,4 +133,8 @@
   .main {
     height: max-content;
   }
+}
+
+.px-11 {
+  padding: 0px;
 }
