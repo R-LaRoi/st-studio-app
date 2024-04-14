@@ -15,10 +15,21 @@ export default function Home() {
 // backgroundColor: '#eb4f34',
   return (
 
-
-
-
     <main className='main'>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
    <motion.div 
         className='mask'
@@ -40,13 +51,49 @@ export default function Home() {
     </a>
 </div>
 </div>
-    <h1 className='header-text'>In pursuit of joy {''} <br/> by design_
+
+<div className='container'>
+  <div class="">
+    <div class="box">
+      <h2 className="h-text">In pursuit of joy
+              <br/> by design.</h2>
+        <div class="title">
+            <span class="block"></span>
+            <h1>Meet Rachel<span>.</span></h1>
+            
+        </div>
+
+        <div class="role">
+            <div class="block"></div>
+           <p> Creative Developer | Artist</p>
+    
+           
+        </div>
+
+    </div>
+</div>
+
+<a href="https://youtu.be/7d2XsPSjjjI" target="_blank"><footer>
+    <div class="texto">
+        <span>
+            <i class="fab fa-youtube"></i>
+            links</span>
+    </div>
+</footer>
+   </a>
+  
+  {/* In pursuit of joy {''} <br/> by design_ */}
+
+    </div> 
+
+
+    {/* <h1 className='header-text'>In pursuit of joy {''} <br/> by design_
 
     </h1> 
- <h3 className="header-h3">Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h3>
+ <h3 className="header-h3">Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h3> */}
 
 <AltMenu />
-<Footer />
+{/* <Footer /> */}
 
 </main>
 
