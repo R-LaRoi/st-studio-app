@@ -109,25 +109,22 @@
 }
 
 footer {
+  width: 250px;
   height: 60px;
-  width: 100%;
-  /* background: #e91e63; */
-  background: #1053d8;
-  /* position: absolute;
+  background: #e91e63;
+  padding-top: 20px;
+  border-radius: 10px 0px 0px 0px;
+
+  position: absolute;
   right: 0;
   bottom: -80px;
-  display: flex;
-  justify-content: end;
-  align-items: end; */
   animation: top 0.8s forwards;
   animation-delay: 4s;
+
   span {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
-    color: #232323;
-    font-family: "Poppins";
   }
 }
 
@@ -182,9 +179,9 @@ footer {
 .link-menu {
   padding-top: 45px;
   margin-left: -7%;
-  /* animation: reveal 0.8s forwards;
+  animation: reveal 0.8s forwards;
   animation-delay: 1s;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
   position: relative;
   bottom: 30px;
 }
@@ -231,6 +228,11 @@ footer {
   }
   .main {
     height: max-content;
+  }
+
+  footer {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
   }
 }
 
