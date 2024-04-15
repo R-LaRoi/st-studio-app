@@ -38,7 +38,7 @@ export default function Home() {
 
 <div className='hero-container'>
   <div class="">
-    <div class="box ">
+    <div class="box">
       <h1 class=" h-text mb-4  font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">In pursuit of joy <div class=" ">by design.</div></h1>
     
         <div class="title">
@@ -55,7 +55,7 @@ export default function Home() {
 
 </div> 
 
-  <footer>
+  <footer className="--tag">
     <div class="texto">
         <span>
            <button className=" h-5 w-5  items-center justify-center align-center outline-none focus:outline-none mr-2" type="button">

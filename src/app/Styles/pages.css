@@ -108,7 +108,7 @@
   }
 }
 
-footer {
+.--tag {
   width: 250px;
   height: 60px;
   background: #e91e63;
@@ -230,7 +230,7 @@ footer {
     height: max-content;
   }
 
-  footer {
+  .--tag {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
   }
