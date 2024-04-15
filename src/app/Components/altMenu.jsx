@@ -7,11 +7,11 @@ return(
   
 
 <div className="link-menu">
-<div className= "link-row-3">
+<div className= "link-row-3" id="link-row-3">
     <div className="">
    <Link href ="/Menu/Projects/" className="move">
     
-    <div className="textContainer">
+    <div className="textContainer px-2">
           <p className="primary">projects</p>
           <p className="secondary">projects</p>
        
@@ -22,7 +22,7 @@ return(
     <div className="">
       <Link href ="/Menu/Connect">
   
-    <div className="textContainer">
+    <div className="textContainer px-2">
           <p className="primary">connect</p>
           <p className="secondary">@rachel</p>
      

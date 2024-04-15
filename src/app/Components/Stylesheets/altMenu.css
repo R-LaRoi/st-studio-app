@@ -1,8 +1,6 @@
 .body {
   position: absolute;
   transform-style: preserve-3d;
-  margin-top: 25px;
-  margin-left: 25px;
   perspective: 300px;
   font-family: "Cal-sans";
 }
@@ -14,9 +12,8 @@
 }
 
 .textContainer p {
-  font-size: 2vw;
+  font-size: 2rem;
   font-weight: 700;
-  margin: 0px;
   transition: all 0.4s;
   color: #ffe100e6;
   line-height: 10px;
@@ -42,10 +39,4 @@
 .textContainer:hover .primary {
   transform: translateY(-100%);
   opacity: 0;
-}
-
-.container {
-  margin: -13%;
-  padding: 7.5rem;
-  margin-left: 25%;
 }

@@ -16,21 +16,6 @@ export default function Home() {
   return (
 
     <main className='main'>
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
    <motion.div 
         className='mask'
         animate={{
@@ -52,48 +37,32 @@ export default function Home() {
 </div>
 </div>
 
-<div className='container'>
+<div className='hero-container'>
   <div class="">
-    <div class="box">
-      <h2 className="h-text">In pursuit of joy
-              <br/> by design.</h2>
+    <div class="box ">
+      <h1 class=" h-text mb-4  font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">In pursuit of joy <div class=" ">by design.</div></h1>
+      {/* <h2 className="h-text">In pursuit of joy
+              <br/> by design.</h2> */}
         <div class="title">
             <span class="block"></span>
-            <h1>Meet Rachel<span>.</span></h1>
-            
+            <h1 className="" id="meet">Meet Rachel.<span></span></h1>
+ 
         </div>
 
         <div class="role">
+              
             <div class="block"></div>
-           <p> Creative Developer | Artist</p>
+           <p className="sub-text" >  Developer | UX Designer</p>
     
-           
+
         </div>
 
-    </div>
-</div>
+           <AltMenu />  
 
-<a href="https://youtu.be/7d2XsPSjjjI" target="_blank"><footer>
-    <div class="texto">
-        <span>
-            <i class="fab fa-youtube"></i>
-            links</span>
-    </div>
-</footer>
-   </a>
-  
-  {/* In pursuit of joy {''} <br/> by design_ */}
+</div>    
 
-    </div> 
-
-
-    {/* <h1 className='header-text'>In pursuit of joy {''} <br/> by design_
-
-    </h1> 
- <h3 className="header-h3">Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h3> */}
-
-<AltMenu />
-{/* <Footer /> */}
+</div> 
+</div> 
 
 </main>
 
