@@ -109,6 +109,8 @@
 }
 
 .--tag {
+  background: url();
+
   background: #e91e63;
   padding-top: 20px;
   position: fixed;
