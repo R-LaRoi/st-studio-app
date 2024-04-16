@@ -4,6 +4,11 @@
   font-size: 1rem;
 }
 
+#ft-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 .foot {
   bottom: 0px;
 }

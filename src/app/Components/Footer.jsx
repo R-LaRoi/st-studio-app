@@ -32,10 +32,10 @@ export default function Footer() {
 
 <footer className="page-footer font-small fill-color pt-4 ">
   <div className="container">
-    <ul className="list-unstyled list-inline text-center  text-slate-50 py-2 ">
+    <ul className="list-unstyled list-inline text-center  text-slate-50 py-2 " id="ft-links">
 		  <h5 className="mb-1">Developer | Rachel Stroy</h5>
       		  <h5 className="mb-1">New York</h5>
-             <h5 className="mb-1">rachel@stroy.dev</h5>
+             		  <h5 className="mb-1">rachel@stroy.dev</h5>
 	      <li className="list-inline-item">
 
 
