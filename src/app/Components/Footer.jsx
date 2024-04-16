@@ -4,9 +4,9 @@ export default function Footer() {
   return (
     
 
-<footer>
+<footer className="--footer">
 
-    <div className="--footer">
+    <div className="">
 
 <div className="foot">
         <svg  className="waves"id="visual" viewBox="0 0 120 30"  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1">
@@ -30,7 +30,7 @@ export default function Footer() {
         <div>
 
 
-<footer className="page-footer font-small unique-color-dark pt-4 ">
+<footer className="page-footer font-small fill-color pt-4 ">
   <div className="container">
     <ul className="list-unstyled list-inline text-center py-2 ">
 		  <h5 className="mb-1">Developer Rachel Stroy</h5>

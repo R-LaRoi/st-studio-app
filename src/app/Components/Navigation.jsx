@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import './Stylesheets/nav.css'
 export default function Navigation() {
 
 return (

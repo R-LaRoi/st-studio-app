@@ -1,14 +1,14 @@
-footer {
+.--footer {
   width: 100vw;
-}
-svg {
-  bottom: 0px;
 }
 
 .foot {
   bottom: 0px;
 }
 
+.fill-color {
+  background-color: #e91e63 !important;
+}
 /*Waves*/
 
 .gentle-wave {
@@ -41,22 +41,4 @@ svg {
   to {
     transform: translateX(-100%);
   }
-}
-
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-  .waves {
-    height: 30px;
-    min-height: 40px;
-  }
-
-  .content {
-    height: 30vh;
-  }
-}
-
-/*Other*/
-
-.unique-color-dark {
-  background-color: #e91e63 !important;
 }
