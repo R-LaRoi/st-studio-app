@@ -41,8 +41,8 @@ export default function Home() {
     <div class="box">
       <h1 class=" h-text mb-4  font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">In pursuit of joy <div class=" ">by design.</div></h1>
     
-        <div class="title">
-            <span class="block"></span>
+<div class="title">
+ <span class="block"></span>
             <h1 className="" id="meet">Meet Rachel.<span></span></h1>
         </div>
  <div class="role">    
@@ -55,10 +55,12 @@ export default function Home() {
 
 </div> 
 
-  <footer className="--tag">
+</div> 
+
+<footer className="--tag">
     <div class="texto">
         <span>
-           <button className=" h-5 w-5  items-center justify-center align-center outline-none focus:outline-none mr-2" type="button">
+  <button className=" h-5 w-5  items-center justify-center align-center outline-none focus:outline-none mr-2" type="button">
             <a href='https://www.rachelstroy.com/'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffff" d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg>
             
@@ -76,10 +78,8 @@ export default function Home() {
 </span>
     </div>
 </footer>
-
-</div> 
-
 </main>
+
 
   );
 }

@@ -109,22 +109,21 @@
 }
 
 .--tag {
-  width: 250px;
-  height: 60px;
   background: #e91e63;
   padding-top: 20px;
-  border-radius: 10px 0px 0px 0px;
-
-  position: absolute;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   right: 0;
-  bottom: -80px;
   animation: top 0.8s forwards;
   animation-delay: 4s;
 
   span {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
+    padding-bottom: 10px;
   }
 }
 
@@ -238,7 +237,7 @@
 
 @media screen and (max-width: 386px) {
   .hero-container {
-    height: max-content;
+    height: 80vh;
   }
 
   #meet {

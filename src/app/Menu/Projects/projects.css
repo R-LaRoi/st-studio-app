@@ -165,7 +165,7 @@ body {
   }
 
   .pro-container {
-    padding: 5rem 2rem 5rem;
+    padding: none;
     position: relative;
     background: linear-gradient(
       -50deg,
