@@ -1,5 +1,5 @@
 'use client';
-import "./Styles/pages.css";
+import "./Components/Stylesheets/pages.css";
 import { useState } from 'react';  
 import { motion } from 'framer-motion';
 import useMousePosition from './Components/mousePosition';

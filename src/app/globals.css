@@ -4,8 +4,7 @@
 
 @font-face {
   font-family: "Cal-Sans";
-  src: local("Cal-Sans"),
-    url("./Styles/CalSans-SemiBold.ttf") format("opentype");
+  src: local("Cal-Sans"), url("./Fonts/CalSans-SemiBold.ttf") format("opentype");
 }
 
 @keyframes gradient {
@@ -205,9 +204,7 @@ svg {
 .foot {
   bottom: 0px;
 }
-/* 
-} 
-*/
+
 /*Waves*/
 
 .gentle-wave {
@@ -236,15 +233,6 @@ svg {
   animation-duration: 13s;
 }
 
-/* .parallax > use:nth-child(3) {
-
-} */
-
-/* .parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
-} */
-
 @keyframes move-forever {
   to {
     transform: translateX(-100%);
@@ -268,15 +256,3 @@ svg {
 .unique-color-dark {
   background-color: #e91e63 !important;
 }
-
-/* .bg-light {
-  background-color: #7289da !important;
-} */
-
-.navbar-brand {
-  color: white;
-}
-
-/* .custom-color {
-  background-color: #7289da !important;
-} */
