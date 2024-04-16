@@ -1,11 +1,12 @@
 .ct-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 1rem;
-  column-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.5rem;
+  column-gap: 2rem;
   row-gap: 1rem;
   color: #dfe9f3;
   font-size: 2rem;
+
   /* max-width: 1180px; */
 }
 
@@ -185,9 +186,9 @@
 /* --------------- */
 
 .ct-col-1a {
-  height: 70vh;
+  height: 55vh;
   background-image: url("./Regular_blob.png");
-  background-color: #fe6426;
+  background-color: #ff5314e6;
   --bg: #f7f7f8;
   --hover-bg: #f0373c;
   --hover-text: white;
@@ -204,6 +205,10 @@
   gap: 1em;
 }
 
+.ct-col-2 {
+  height: 55vh;
+  color: #ffffff;
+}
 .ct-card__body {
   color: #464853;
   line-height: 1.5em;
@@ -256,11 +261,12 @@
 }
 
 .bubble-two {
-  background-color: #f14c3a;
+  background-color: #ff9e0c;
 }
 .meet-card {
   position: relative;
-  padding-left: 10%;
+  margin-top: 15px;
+  /* padding-left: 10%; */
 }
 
 .icon {

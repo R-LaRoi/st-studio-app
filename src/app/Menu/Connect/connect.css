@@ -84,18 +84,17 @@
 }
 
 .ct-col-1 {
-  height: 70vh;
-
+  height: 55vh;
   background-color: #1f3dfe;
 }
 
 .ct-col-2 {
-  height: 70vh;
+  height: 55vh;
   background-color: #ff9900ec;
 }
 
 .ct-box-3 {
-  height: 70vh;
+  height: 55vh;
 
   background-color: #ef3528ec;
 }
@@ -162,21 +161,21 @@
     color: rgba(254, 140, 19, 0.879);
     font-weight: 400;
     z-index: 1;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: left;
     position: relative;
     top: 40px;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   .contact-h1 {
     height: min-content;
-    padding-top: 11rem;
+    padding-top: 12rem;
     padding-bottom: 2rem;
   }
 
   .ct-header {
-    height: 74vh;
+    height: 75vh;
     background-image: url("./bubble.gif");
     background-size: contain;
     background-repeat: no-repeat;

@@ -6,6 +6,11 @@
   font-family: "Cal-Sans";
   src: local("Cal-Sans"), url("./Fonts/CalSans-SemiBold.ttf") format("opentype");
 }
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./Fonts/Poppins-ExtraLight.otf") format("opentype");
+}
 
 @keyframes gradient {
   0% {
