@@ -38,16 +38,16 @@ export default function Home() {
 </div>
 
 <div className='hero-container'>
-  <div class="">
-    <div class="box">
-      <h1 class=" h-text mb-4  font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">In pursuit of joy <div class=" ">by design.</div></h1>
+  <div className="">
+    <div className="box">
+      <h1 className=" h-text mb-4  font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">In pursuit of joy <div className=" ">by design.</div></h1>
     
-<div class="title">
- <span class="block"></span>
+<div className="title">
+ <span className="block"></span>
 <h1 className="" id="meet">Meet Rachel.<span></span></h1>
 </div>
- <div class="role">    
- <div class="block"></div>
+ <div className="role">    
+ <div className="block"></div>
  <p className="sub-text">  Developer | UX Designer</p>
 </div>
  <AltMenu />  

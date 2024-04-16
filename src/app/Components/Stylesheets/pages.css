@@ -14,7 +14,7 @@
 
   .box {
     width: max-content;
-    height: 450px;
+    height: 550px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -195,11 +195,6 @@
   }
   .main {
     height: max-content;
-  }
-
-  .--tag {
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
   }
 }
 
