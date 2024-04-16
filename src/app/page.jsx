@@ -57,7 +57,9 @@ export default function Home() {
 
 </div> 
 
-<footer className="--tag">
+
+<Footer />
+{/* <footer className="--tag">
     <div class="texto">
         <span>
   <button className=" h-5 w-5  items-center justify-center align-center outline-none focus:outline-none mr-2" type="button">
@@ -77,7 +79,7 @@ export default function Home() {
 </button>
 </span>
     </div>
-</footer>
+</footer> */}
 </main>
 
 
