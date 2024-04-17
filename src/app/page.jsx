@@ -1,11 +1,12 @@
 'use client';
-import "./Components/Stylesheets/pages.css";
-import './Components/Stylesheets/nav.css'
-import { useState } from 'react';  
+import { useState, useEffect } from 'react';  
 import { motion } from 'framer-motion';
 import useMousePosition from './Components/mousePosition';
 import AltMenu from './Components/altMenu'
 import Footer from './Components/Footer'
+import Loading from './Components/Loading'
+import "./Components/Stylesheets/pages.css";
+import './Components/Stylesheets/nav.css'
 
 export default function Home() {
 
@@ -13,10 +14,19 @@ export default function Home() {
   const { x, y } = useMousePosition();
   const size = isHovered ? 700 : 690;
 
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1500)
+  }, [])
+
 
   return (
 
-    <main className='main'>
+    <>
+{ loading === false ? (
+
+<main className='main'>
    <motion.div 
         className='mask'
         animate={{
@@ -48,18 +58,17 @@ export default function Home() {
 </div>
  <div className="role pt-6">    
  <div className="block"></div>
- <p className="sub-text drop-shadow-md">  Developer | UX Designer</p>
+ <p className="sub-text drop-shadow-md"> Developer | UX Designer</p>
 </div>
  <AltMenu />  
-
 </div>    
 </div> 
 </div> 
-
  <Footer />
-
 </main>
 
-
+  ) :  ( <Loading />)}
+    
+</>
   );
 }
