@@ -5,9 +5,9 @@ export default function Loading() {
   
 return(
 <section className="load-body">
-<div class="loader">
-  <div class="one"></div>
-  <div class="two"></div>
+<div className="loader">
+  <div className="one"></div>
+  <div className="two"></div>
 </div>
 </section>
 )
