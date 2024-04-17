@@ -63,11 +63,13 @@ return(
 
   <header className="">
     <div className="">
-        <div className="row align-items-center m-1 w-75">
-            <div className="col-lg-7 m-4 px-11 py-6 w-full pro-h1">
-                <h1 className="pr-text"> Designed to go places.
+        <div className="row align-items-center m-14 w-75">
+            <div className="col-lg-7 m-6 py-2 w-full pro-h1">
+                <h1 className="pr-text drop-shadow-md "> Designed to go places.
                 </h1>
-                    <h3 className='pr-text'>Dynamic creative developer, conceptualizing and delivering user-friendly solutions.</h3>
+                    <h3 className='pr-text drop-shadow-md '>
+Always creative. Designing and developing to deliver user-friendly solutions.
+                    </h3>
             </div>
             <div className="col-lg-4">
                 <div className="py-5 px-4 masthead-cards">
@@ -82,14 +84,6 @@ return(
 
 </header>
     </div>
-<header>
-
-
-
-</header>
-
-
-
 
 <section>
   

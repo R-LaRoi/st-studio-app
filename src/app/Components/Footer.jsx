@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import './Stylesheets/footer.css'
 export default function Footer() {
@@ -30,9 +31,9 @@ export default function Footer() {
         <div>
 
 
-<footer className="page-footer font-small fill-color pt-4 ">
+<footer className="page-footer font-small fill-color pt-2  mt-0">
   <div className="container">
-    <ul className="list-unstyled list-inline text-center  text-slate-50 py-2 " id="ft-links">
+    <ul className="list-unstyled list-inline text-center  text-slate-50 py-1 " id="ft-links">
 		  <h5 className="mb-1">Developer | Rachel Stroy</h5>
       		  <h5 className="mb-1">New York</h5>
              		  <h5 className="mb-1">rachel@stroy.dev</h5>
@@ -56,8 +57,8 @@ export default function Footer() {
 		  <br/>
     </ul>
   </div>
-  <div className="footer-copyright text-center text-slate-50 py-3"><h7>©2024  Stroy  <br/><small>All Rights Reserved</small></h7>
-    <h7 href="https://discord.gg/uRqH5UT"> </h7>
+  <div className="footer-copyright text-center text-slate-50 py-3"><div>©2024  Stroy  <br/><small>All Rights Reserved</small></div>
+ 
   </div>
 
    </footer>

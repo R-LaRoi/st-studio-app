@@ -1,3 +1,4 @@
+'use client';
 import React from "react"
 import Link from "next/link"
 import './Stylesheets/nav.css'
@@ -24,8 +25,9 @@ className="offcanvas offcanvas-start canvas-body"
 data-bs-scroll="true" 
 tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
   <div className="offcanvas-header">
-    <h5 className="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-<Link href ="/">
+    <h5 className="offcanvas-title hover:bg-yellow-400 rounded-md p-2" id="offcanvasWithBothOptionsLabel" >
+
+<Link href ="/" >
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
 	<g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round">
 		<path strokeDasharray="15" strokeDashoffset="15" d="M4.5 21.5h15">
@@ -44,7 +46,7 @@ tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOp
 </svg>
 </Link>
     </h5>
-    <button type="button" className="btn-close nav-xbtn" data-bs-dismiss="offcanvas" aria-label="Close">x</button>
+    <button type="button" className="btn-close nav-xbtn hover:bg-slate-50 rounded-lg pt-4" data-bs-dismiss="offcanvas" aria-label="Close">x</button>
   </div>
   <div className="offcanvas-body">
     <div className="nav-text">
@@ -80,9 +82,12 @@ tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOp
     </div>
 </Link>
 
+
     </div>
+
     <div className="col-sm-3">
-      <Link href ="/Menu/Studio">
+      {/* <Link href ="/Menu/Studio"> */}
+        <a href="https://www.rachelstroy.com/" target="_blank"> 
      <div className="nav-container" >
       <div className="body">
     <div className="textContainer">
@@ -92,9 +97,26 @@ tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOp
         </div>
       </div>
     </div>
-   </Link>
+    </a>
+   {/* </Link> */}
 
     </div>
+
+  <div className="col-sm-3">
+      <Link href ="/">
+     <div className="nav-container" >
+      <div className="body">
+    <div className="textContainer">
+          <p className="primary">MAIN</p>
+          <p className="secondary">MAIN</p>
+        </div>
+      </div>
+    </div>
+</Link>
+
+
+    </div>
+
   </div>
 </div>
 

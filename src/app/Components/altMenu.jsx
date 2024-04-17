@@ -6,7 +6,7 @@ export default function AltMenu() {
 return(
   
 
-<div className="link-menu">
+<div className="link-menu drop-shadow-md ">
 <div className= "link-row-3" id="link-row-3">
     <div className="">
    <Link href ="/Menu/Projects/" className="move">
@@ -31,15 +31,15 @@ return(
 
     </div>
     <div className="">
-      <Link href ="/Menu/Studio">
-     
+      {/* <Link href ="/Menu/Studio"> */}
+    <a href="https://www.rachelstroy.com/" target="_blank"> 
     <div className="textContainer">
             <p className="primary">studio
             <span style={{color: "#FFE627"}}>_</span> </p>
           <p className="secondary">art&design</p>
-        </div>
+        </div></a> 
      
-   </Link>
+   {/* </Link> */}
 
     </div>
   </div>

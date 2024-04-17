@@ -135,7 +135,7 @@
   );
   background-size: 300% 300%;
   animation: gradient 12s ease infinite;
-  height: 100vh;
+  height: max-content;
 
   .mask {
     width: 100%;

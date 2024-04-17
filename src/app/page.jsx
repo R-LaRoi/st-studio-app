@@ -40,22 +40,23 @@ export default function Home() {
 <div className='hero-container'>
   <div className="">
     <div className="box">
-      <h1 className=" h-text mb-4  font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">In pursuit of joy <div className=" ">by design.</div></h1>
+      <h1 className=" h-text mb-4  font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white drop-shadow-md ">In pursuit of joy <div className=" ">by design.</div></h1>
     
 <div className="title">
  <span className="block"></span>
-<h1 className="" id="meet">Meet Rachel.<span></span></h1>
+<h1 className="drop-shadow-md " id="meet ">Meet Rachel.<span></span></h1>
 </div>
- <div className="role">    
+ <div className="role pt-6">    
  <div className="block"></div>
- <p className="sub-text">  Developer | UX Designer</p>
+ <p className="sub-text drop-shadow-md">  Developer | UX Designer</p>
 </div>
  <AltMenu />  
+
 </div>    
 </div> 
 </div> 
 
-<Footer />
+ <Footer />
 
 </main>
 
